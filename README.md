@@ -91,6 +91,13 @@ To run the backend with **no database at all**, use the `demo` profile (see [Liv
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for the request path, the auth flow and the data model.
 
+## Contributors
+
+Built by two students on the DAM course. Handles are GitLab, where the coursework was hosted.
+
+- **Ismael Rosillo** (@rosillodev)
+- **Daniel Adanegbe** (@dadanegbe)
+
 ## License
 
 PolyForm Noncommercial 1.0.0 ([LICENSE](./LICENSE)). Personal, non-commercial use only.
