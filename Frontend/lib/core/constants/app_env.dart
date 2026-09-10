@@ -41,31 +41,33 @@ abstract final class AppEnv {
   ///   (mismo host, puerto 8080). Funciona con cualquier IP de la red.
   /// - En mobile/desktop: valor inyectado por --dart-define-from-file.
   static String get apiBaseUrl {
+    const injected = String.fromEnvironment('API_BASE_URL');
+    if (injected.isNotEmpty) {
+      return injected.replaceAll('"', '').replaceAll("'", '').trim();
+    }
     if (kIsWeb) {
-      // Uri.base = 'http://10.103.140.160:8081/' (lo que sea que sirva la app)
-      // Construimos: 'http://10.103.140.160:8080/api/'
-      final host = Uri.base.host; // '10.103.140.160'
-      final scheme = Uri.base.scheme; // 'http'
+      // No URL compiled in: assume the API is on the same host, port 8080.
+      // This keeps LAN development working (app served from :8081, API on :8080).
+      final host = Uri.base.host;
+      final scheme = Uri.base.scheme;
       return '$scheme://$host:8080/api/';
     }
-    return const String.fromEnvironment(
-      'API_BASE_URL',
-      defaultValue: 'http://localhost:8080/api/',
-    ).replaceAll('"', '').replaceAll("'", '').trim();
+    return 'http://localhost:8080/api/';
   }
 
   /// URL base del servidor de uploads (imágenes de perfil).
   /// Misma lógica: en web usa el host actual; en mobile usa dart-define.
   static String get uploadsBaseUrl {
+    const injected = String.fromEnvironment('UPLOADS_BASE_URL');
+    if (injected.isNotEmpty) {
+      return injected.replaceAll('"', '').replaceAll("'", '').trim();
+    }
     if (kIsWeb) {
       final host = Uri.base.host;
       final scheme = Uri.base.scheme;
       return '$scheme://$host:8080/uploads/profiles/';
     }
-    return const String.fromEnvironment(
-      'UPLOADS_BASE_URL',
-      defaultValue: 'http://localhost:8080/uploads/profiles/',
-    ).replaceAll('"', '').replaceAll("'", '').trim();
+    return 'http://localhost:8080/uploads/profiles/';
   }
 
   // ── Timeouts de red ───────────────────────────────────────────────────────

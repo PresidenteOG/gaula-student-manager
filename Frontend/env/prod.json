@@ -1,0 +1,8 @@
+{
+  "APP_ENV": "prod",
+  "API_BASE_URL": "https://REPLACE-WITH-RENDER-URL.onrender.com/api/",
+  "UPLOADS_BASE_URL": "https://REPLACE-WITH-RENDER-URL.onrender.com/uploads/profiles/",
+  "CONNECT_TIMEOUT_S": "20",
+  "RECEIVE_TIMEOUT_S": "40",
+  "SEND_TIMEOUT_S": "20"
+}

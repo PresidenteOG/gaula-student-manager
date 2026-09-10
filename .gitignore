@@ -14,9 +14,9 @@ Frontend/.flutter-plugins
 Frontend/.flutter-plugins-dependencies
 Frontend/.pub-cache/
 Frontend/coverage/
-# env files: dev.json ships as a template, real ones are CI-only
+# env files: dev.json + prod.json ship as templates (no secrets, just API URLs).
+# The Pages workflow overrides prod.json from the API_BASE_URL repo variable.
 Frontend/env/staging.json
-Frontend/env/prod.json
 Frontend/env/lan.json
 # Flutter Android signing
 Frontend/android/key.properties

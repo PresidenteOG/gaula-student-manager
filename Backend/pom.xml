@@ -93,6 +93,13 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- 3.2 H2 — in-memory database for the `demo` profile (public showcase deploy) -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
         <!-- 5. LOMBOK -->
         <dependency>
             <groupId>org.projectlombok</groupId>

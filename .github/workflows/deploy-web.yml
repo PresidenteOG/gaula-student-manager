@@ -1,0 +1,78 @@
+name: Deploy Flutter web to Pages
+
+# Builds Frontend/ as a Flutter web app and publishes it to GitHub Pages.
+# Set a repository variable API_BASE_URL to the deployed Render API root
+# (e.g. https://gaula-student-manager-xxxx.onrender.com/api/) — Settings →
+# Secrets and variables → Actions → Variables. Without it the build falls
+# back to Frontend/env/prod.json.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'Frontend/**'
+      - '.github/workflows/deploy-web.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - run: flutter pub get
+
+      - name: Build web
+        env:
+          API_BASE_URL: ${{ vars.API_BASE_URL }}
+        run: |
+          set -e
+          if [ -n "$API_BASE_URL" ]; then
+            UPLOADS="${API_BASE_URL%/api/}/uploads/profiles/"
+            echo "Building against $API_BASE_URL"
+            flutter build web --release \
+              --base-href=/gaula-student-manager/ \
+              --dart-define=APP_ENV=prod \
+              --dart-define=API_BASE_URL="$API_BASE_URL" \
+              --dart-define=UPLOADS_BASE_URL="$UPLOADS" \
+              --dart-define=CONNECT_TIMEOUT_S=20 \
+              --dart-define=RECEIVE_TIMEOUT_S=40 \
+              --dart-define=SEND_TIMEOUT_S=20
+          else
+            echo "No API_BASE_URL repository variable — building from env/prod.json"
+            flutter build web --release \
+              --base-href=/gaula-student-manager/ \
+              --dart-define-from-file=env/prod.json
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: Frontend/build/web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

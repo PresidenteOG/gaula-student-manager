@@ -13,6 +13,21 @@ codebase.
 Built for the final DAM (software development) project. Two people, ~130 backend classes and a
 feature-first Flutter app.
 
+## Live demo
+
+There is a `demo` profile that runs the entire backend with no database and no setup — H2 in
+memory, re-seeded on every start with a small fictional school (four teachers, two DAM groups,
+nine students, a weekly timetable). Every account's password is `admin123`; sign in as `admin`
+for the full admin view, or as `ifernandez` / `clopez` for the teacher and student views.
+
+```bash
+cd Backend
+GAULA_JWT_SECRET=local-dev-secret ./mvnw spring-boot:run -Dspring-boot.run.profiles=demo
+```
+
+Hosting it (Render for the API, GitHub Pages for the Flutter web client) is described in
+[DEPLOY.md](DEPLOY.md). Live links go here once deployed.
+
 ## The three roles
 
 | Role | Can do |
@@ -67,8 +82,10 @@ flutter run --dart-define-from-file=env/dev.json          # mobile
 flutter run -d chrome --dart-define-from-file=env/dev.json # web
 ```
 
-`env/dev.json` points at `http://localhost:8080`. Copy it to `env/prod.json` (gitignored) to
-target a deployed backend.
+`env/dev.json` points at `http://localhost:8080`. `env/prod.json` targets a deployed backend —
+edit its URLs, or let the Pages workflow fill them from the `API_BASE_URL` repo variable.
+
+To run the backend with **no database at all**, use the `demo` profile (see [Live demo](#live-demo)).
 
 ## Architecture
 
