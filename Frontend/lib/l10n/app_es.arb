@@ -1,0 +1,2242 @@
+{
+  "@@locale": "es",
+  "appTitle": "GAULA — Gestor de Clases",
+  "@appTitle": {
+    "description": "Título de la aplicación"
+  },
+  "loading": "Cargando...",
+  "@loading": {
+    "description": "Estado de carga genérico"
+  },
+  "errorGenerico": "Error",
+  "@errorGenerico": {
+    "description": "Error genérico"
+  },
+  "reintentar": "Reintentar",
+  "guardar": "Guardar",
+  "@guardar": {
+    "description": "Botón guardar"
+  },
+  "cancelar": "Cancelar",
+  "@cancelar": {
+    "description": "Botón cancelar"
+  },
+  "cerrar": "Cerrar",
+  "@cerrar": {
+    "description": "Botón cerrar"
+  },
+  "volver": "Volver",
+  "@volver": {
+    "description": "Botón volver"
+  },
+  "confirmar": "Confirmar",
+  "@confirmar": {
+    "description": "Botón confirmar"
+  },
+  "buscar": "Buscar",
+  "@buscar": {
+    "description": "Acción de búsqueda"
+  },
+  "buscarPlaceholder": "Buscar...",
+  "@buscarPlaceholder": {
+    "description": "Placeholder de búsqueda"
+  },
+  "sinDatos": "Sin datos disponibles.",
+  "@sinDatos": {
+    "description": "Estado vacío genérico"
+  },
+  "aceptar": "Aceptar",
+  "@aceptar": {
+    "description": "Botón aceptar"
+  },
+  "eliminar": "Eliminar",
+  "@eliminar": {
+    "description": "Botón eliminar"
+  },
+  "justificar": "Justificar",
+  "@justificar": {
+    "description": "Botón justificar falta"
+  },
+  "editar": "Editar",
+  "@editar": {
+    "description": "Botón editar"
+  },
+  "crear": "Crear",
+  "@crear": {
+    "description": "Botón crear"
+  },
+  "agregar": "Agregar",
+  "@agregar": {
+    "description": "Botón agregar"
+  },
+  "ver": "Ver",
+  "@ver": {
+    "description": "Botón ver"
+  },
+  "exportar": "Exportar",
+  "@exportar": {
+    "description": "Botón exportar"
+  },
+  "importar": "Importar",
+  "@importar": {
+    "description": "Botón importar"
+  },
+  "actualizar": "Actualizar",
+  "@actualizar": {
+    "description": "Botón actualizar/refrescar"
+  },
+  "pagina": "Página {actual} de {total}",
+  "@pagina": {
+    "description": "Paginación",
+    "placeholders": {
+      "actual": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "navInicio": "Inicio",
+  "@navInicio": {
+    "description": "Navegación: Inicio"
+  },
+  "navAsistencia": "Asistencia",
+  "@navAsistencia": {
+    "description": "Navegación: Asistencia"
+  },
+  "navCalendario": "Calendario",
+  "@navCalendario": {
+    "description": "Navegación: Calendario"
+  },
+  "navAlumnos": "Alumnos",
+  "@navAlumnos": {
+    "description": "Navegación: Alumnos"
+  },
+  "navProfesores": "Profesores",
+  "@navProfesores": {
+    "description": "Navegación: Profesores"
+  },
+  "navCursos": "Cursos",
+  "@navCursos": {
+    "description": "Navegación: Cursos"
+  },
+  "navIncidencias": "Incidencias",
+  "@navIncidencias": {
+    "description": "Navegación: Incidencias"
+  },
+  "navReglamento": "Reglamento",
+  "@navReglamento": {
+    "description": "Navegación: Reglamento"
+  },
+  "navCerrarSesion": "Cerrar sesión",
+  "@navCerrarSesion": {
+    "description": "Navegación: Cerrar sesión"
+  },
+  "navResumen": "Resumen",
+  "@navResumen": {
+    "description": "Navegación: Resumen/Dashboard"
+  },
+  "navPlanesEstudios": "Planes de Estudios",
+  "@navPlanesEstudios": {
+    "description": "Navegación: Planes de Estudios"
+  },
+  "navConfiguracion": "Configuración",
+  "@navConfiguracion": {
+    "description": "Navegación: Configuración"
+  },
+  "navCopiaSeguridad": "Copia Seguridad",
+  "@navCopiaSeguridad": {
+    "description": "Navegación: Copia de Seguridad"
+  },
+  "navMiHorario": "Mi Horario",
+  "@navMiHorario": {
+    "description": "Navegación: Mi Horario"
+  },
+  "navNormasCentro": "Normas del Centro",
+  "@navNormasCentro": {
+    "description": "Navegación: Normas del Centro"
+  },
+  "navHistorialClases": "Historial Clases",
+  "@navHistorialClases": {
+    "description": "Navegación: Historial de Clases"
+  },
+  "navMiPerfil": "Mi Perfil",
+  "@navMiPerfil": {
+    "description": "Navegación: Mi Perfil"
+  },
+  "navAjustes": "Ajustes",
+  "@navAjustes": {
+    "description": "Navegación: Ajustes"
+  },
+  "navMiAsistencia": "Mi Asistencia",
+  "@navMiAsistencia": {
+    "description": "Navegación: Mi Asistencia (alumno)"
+  },
+  "navHistorial": "Historial",
+  "@navHistorial": {
+    "description": "Navegación: Historial"
+  },
+  "navMiFicha": "Mi Ficha",
+  "@navMiFicha": {
+    "description": "Navegación: Mi Ficha"
+  },
+  "navMisIncidencias": "Mis Incidencias",
+  "@navMisIncidencias": {
+    "description": "Navegación: Mis Incidencias"
+  },
+  "navPasarLista": "Pasar Lista",
+  "@navPasarLista": {
+    "description": "Navegación: Pasar Lista"
+  },
+  "rolAdministrador": "ADMINISTRADOR",
+  "@rolAdministrador": {
+    "description": "Rol: Administrador"
+  },
+  "rolProfesor": "PROFESOR",
+  "@rolProfesor": {
+    "description": "Rol: Profesor"
+  },
+  "rolAlumno": "ALUMNO",
+  "@rolAlumno": {
+    "description": "Rol: Alumno"
+  },
+  "shellAdminTitulo": "Panel Administrativo",
+  "@shellAdminTitulo": {
+    "description": "Título del shell admin"
+  },
+  "shellAdminSubtitulo": "Gestión Central GAULA",
+  "@shellAdminSubtitulo": {
+    "description": "Subtítulo del shell admin"
+  },
+  "shellAdminTituloMovil": "GAULA Admin",
+  "@shellAdminTituloMovil": {
+    "description": "Título del shell admin en móvil"
+  },
+  "shellTeacherTitulo": "Portal Docente",
+  "@shellTeacherTitulo": {
+    "description": "Título del shell docente"
+  },
+  "shellTeacherSubtitulo": "Gestión Educativa GAULA",
+  "@shellTeacherSubtitulo": {
+    "description": "Subtítulo del shell docente"
+  },
+  "shellTeacherTituloMovil": "GAULA Docente",
+  "@shellTeacherTituloMovil": {
+    "description": "Título del shell docente en móvil"
+  },
+  "shellStudentSubtitulo": "Panel de Alumno",
+  "@shellStudentSubtitulo": {
+    "description": "Subtítulo del shell alumno"
+  },
+  "saludoHola": "Hola, {nombre}",
+  "@saludoHola": {
+    "description": "Saludo de bienvenida con nombre",
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "sinNotificaciones": "No hay notificaciones",
+  "@sinNotificaciones": {
+    "description": "Estado vacío notificaciones"
+  },
+  "loginTitulo": "Iniciar sesión",
+  "@loginTitulo": {
+    "description": "Título pantalla login"
+  },
+  "loginUsuario": "Usuario",
+  "@loginUsuario": {
+    "description": "Campo usuario en login"
+  },
+  "loginContrasena": "Contraseña",
+  "@loginContrasena": {
+    "description": "Campo contraseña en login"
+  },
+  "loginBoton": "Entrar",
+  "@loginBoton": {
+    "description": "Botón de login"
+  },
+  "loginErrorCredenciales": "Usuario o contraseña incorrectos.",
+  "@loginErrorCredenciales": {
+    "description": "Error de credenciales en login"
+  },
+  "loginErrorConexion": "Error de conexión. ¿Está el servidor arrancado?",
+  "@loginErrorConexion": {
+    "description": "Error de conexión en login"
+  },
+  "dashClasesHoy": "Clases hoy",
+  "@dashClasesHoy": {
+    "description": "Stat: Clases de hoy"
+  },
+  "dashAlumnosTotales": "Alumnos totales",
+  "@dashAlumnosTotales": {
+    "description": "Stat: Alumnos totales"
+  },
+  "dashIncidenciasHoy": "Incidencias hoy",
+  "@dashIncidenciasHoy": {
+    "description": "Stat: Incidencias de hoy"
+  },
+  "dashAsistenciaMedia": "Asistencia media",
+  "@dashAsistenciaMedia": {
+    "description": "Stat: Asistencia media"
+  },
+  "dashAsistenciaTotal": "Asistencia total",
+  "@dashAsistenciaTotal": {
+    "description": "Stat: Asistencia total del alumno"
+  },
+  "dashAusencias": "Ausencias",
+  "@dashAusencias": {
+    "description": "Stat: Ausencias"
+  },
+  "dashRetrasos": "Retrasos",
+  "@dashRetrasos": {
+    "description": "Stat: Retrasos"
+  },
+  "dashHorasFaltadas": "Horas Faltadas",
+  "@dashHorasFaltadas": {
+    "description": "Stat: Horas Faltadas"
+  },
+  "dashClasesTotales": "Clases Totales",
+  "@dashClasesTotales": {
+    "description": "Stat: Clases Totales"
+  },
+  "seccionListasPendientes": "Listas Pendientes",
+  "@seccionListasPendientes": {
+    "description": "Sección: Listas pendientes de pasar"
+  },
+  "todoAlDia": "Todo al día 🎉",
+  "@todoAlDia": {
+    "description": "Estado: no hay listas pendientes"
+  },
+  "seccionProximasClases": "Próximas Clases",
+  "@seccionProximasClases": {
+    "description": "Sección: Próximas clases del día"
+  },
+  "sinClasesHoy": "No tienes clases hoy",
+  "@sinClasesHoy": {
+    "description": "Estado vacío: sin clases hoy (profesor)"
+  },
+  "sinClasesProximas": "No tienes clases próximas ahora",
+  "@sinClasesProximas": {
+    "description": "Estado vacío: sin clases próximas"
+  },
+  "accesRapido": "Acceso Rápido",
+  "@accesRapido": {
+    "description": "Banner de acceso rápido al pase de lista"
+  },
+  "irAPasarLista": "Ir a Pasar Lista",
+  "@irAPasarLista": {
+    "description": "Botón del banner: ir a pasar lista"
+  },
+  "proximaClaseLabel": "Próxima: {materia}",
+  "@proximaClaseLabel": {
+    "description": "Etiqueta próxima clase en banner",
+    "placeholders": {
+      "materia": {
+        "type": "String"
+      }
+    }
+  },
+  "aulaHoraLabel": "Aula: {aula} • {horaInicio} - {horaFin}",
+  "@aulaHoraLabel": {
+    "description": "Etiqueta aula y horario",
+    "placeholders": {
+      "aula": {
+        "type": "String"
+      },
+      "horaInicio": {
+        "type": "String"
+      },
+      "horaFin": {
+        "type": "String"
+      }
+    }
+  },
+  "errorCargarProximaClase": "Error al cargar próxima clase",
+  "@errorCargarProximaClase": {
+    "description": "Error cargando próxima clase"
+  },
+  "misClasesHoy": "Mis Clases de Hoy",
+  "@misClasesHoy": {
+    "description": "Sección: Mis Clases de Hoy (alumno)"
+  },
+  "horarioCompleto": "Horario Completo",
+  "@horarioCompleto": {
+    "description": "Enlace/botón al horario completo"
+  },
+  "cargandoHorario": "Cargando horario...",
+  "@cargandoHorario": {
+    "description": "Estado de carga del horario"
+  },
+  "errorCargandoHorario": "Error cargando horario",
+  "@errorCargandoHorario": {
+    "description": "Error al cargar horario"
+  },
+  "sinClasesHoyAlumno": "No tienes clases programadas para hoy",
+  "@sinClasesHoyAlumno": {
+    "description": "Estado vacío: sin clases hoy (alumno)"
+  },
+  "saludoEstudiante": "Estudiante",
+  "@saludoEstudiante": {
+    "description": "Fallback nombre estudiante en saludo"
+  },
+  "saludoProfesor": "Profesor",
+  "@saludoProfesor": {
+    "description": "Fallback nombre profesor en saludo"
+  },
+  "historialTitulo": "Historial de Clases",
+  "@historialTitulo": {
+    "description": "Título pantalla historial de clases alumno"
+  },
+  "historialSubtitulo": "Registro completo de todas tus sesiones de clase",
+  "@historialSubtitulo": {
+    "description": "Subtítulo pantalla historial"
+  },
+  "historialVacio": "No hay historial de clases todavía",
+  "@historialVacio": {
+    "description": "Estado vacío historial"
+  },
+  "historialVacioDesc": "Tu historial de asistencia aparecerá aquí conforme el profesor pase lista",
+  "@historialVacioDesc": {
+    "description": "Descripción estado vacío historial"
+  },
+  "fechaHoy": "Hoy",
+  "@fechaHoy": {
+    "description": "Etiqueta 'Hoy' en clases"
+  },
+  "asistenciaTitulo": "Mi Asistencia",
+  "@asistenciaTitulo": {
+    "description": "Título pantalla asistencia alumno"
+  },
+  "asistenciaMaterias": "Materias",
+  "@asistenciaMaterias": {
+    "description": "Pestaña materias en asistencia"
+  },
+  "asistenciaRegistro": "Registro",
+  "@asistenciaRegistro": {
+    "description": "Pestaña registro en asistencia"
+  },
+  "asistenciaAusente": "Ausente",
+  "@asistenciaAusente": {
+    "description": "Estado: ausente"
+  },
+  "asistenciaRetraso": "Retraso",
+  "@asistenciaRetraso": {
+    "description": "Estado: retraso"
+  },
+  "asistenciaJustificado": "Justificado",
+  "@asistenciaJustificado": {
+    "description": "Estado: justificado"
+  },
+  "asistenciaPresente": "Presente",
+  "@asistenciaPresente": {
+    "description": "Estado: presente"
+  },
+  "asistenciaSinFaltas": "Sin registros de faltas/retrasos.",
+  "@asistenciaSinFaltas": {
+    "description": "Estado vacío en registro asistencia"
+  },
+  "asistenciaPasarLista": "Pasar Lista",
+  "@asistenciaPasarLista": {
+    "description": "Acción pasar lista"
+  },
+  "estadoPresente": "PRESENTE",
+  "@estadoPresente": {
+    "description": "Estado asistencia: Presente"
+  },
+  "estadoAusente": "AUSENTE",
+  "@estadoAusente": {
+    "description": "Estado asistencia: Ausente"
+  },
+  "estadoRetraso": "RETRASO",
+  "@estadoRetraso": {
+    "description": "Estado asistencia: Retraso"
+  },
+  "estadoJustificado": "JUSTIFICADO",
+  "@estadoJustificado": {
+    "description": "Estado asistencia: Justificado"
+  },
+  "estadoActivo": "ACTIVO",
+  "@estadoActivo": {
+    "description": "Estado: Activo"
+  },
+  "estadoInactivo": "INACTIVO",
+  "@estadoInactivo": {
+    "description": "Estado: Inactivo"
+  },
+  "estadoMatriculado": "MATRICULADO",
+  "@estadoMatriculado": {
+    "description": "Estado matrícula: Matriculado"
+  },
+  "estadoAbierto": "ABIERTO",
+  "@estadoAbierto": {
+    "description": "Estado incidencia: Abierto"
+  },
+  "estadoEnProceso": "EN PROCESO",
+  "@estadoEnProceso": {
+    "description": "Estado incidencia: En proceso"
+  },
+  "estadoCerrado": "CERRADO",
+  "@estadoCerrado": {
+    "description": "Estado incidencia: Cerrado"
+  },
+  "calendarioTitulo": "Calendario de Festivos",
+  "@calendarioTitulo": {
+    "description": "Título pantalla festivos"
+  },
+  "calendarioSubtitulo": "Días no lectivos y festividades académicas sincronizadas",
+  "@calendarioSubtitulo": {
+    "description": "Subtítulo pantalla festivos"
+  },
+  "calendarioProximosDias": "PRÓXIMOS DÍAS",
+  "@calendarioProximosDias": {
+    "description": "Sección próximos festivos"
+  },
+  "calendarioConfigurarRegion": "CONFIGURAR REGIÓN",
+  "@calendarioConfigurarRegion": {
+    "description": "Botón configurar región festivos"
+  },
+  "calendarioSincronizar": "Sincronizar Festivos",
+  "@calendarioSincronizar": {
+    "description": "Botón sincronizar festivos"
+  },
+  "calendarioSinFestivos": "No hay festivos registrados para este período.",
+  "@calendarioSinFestivos": {
+    "description": "Estado vacío festivos"
+  },
+  "calendarioNacional": "Nacional",
+  "@calendarioNacional": {
+    "description": "Chip: festivo nacional"
+  },
+  "calendarioAutonomico": "Autonómico",
+  "@calendarioAutonomico": {
+    "description": "Chip: festivo autonómico"
+  },
+  "seleccionarCurso": "Seleccionar Curso",
+  "@seleccionarCurso": {
+    "description": "Título diálogo selección de curso"
+  },
+  "seleccionarCursoDesc": "Selecciona un curso para ver sus materias disponibles hoy.",
+  "@seleccionarCursoDesc": {
+    "description": "Descripción diálogo selección de curso"
+  },
+  "seleccionarMateriaDesc": "Selecciona la materia para ver sus sesiones.",
+  "@seleccionarMateriaDesc": {
+    "description": "Descripción diálogo selección de materia"
+  },
+  "seleccionarSesionDesc": "Selecciona la sesión exacta para pasar lista.",
+  "@seleccionarSesionDesc": {
+    "description": "Descripción diálogo selección de sesión"
+  },
+  "sinSesionesHoy": "No hay sesiones para hoy.",
+  "@sinSesionesHoy": {
+    "description": "Estado vacío sesiones de hoy"
+  },
+  "sinMaterias": "No hay materias en este curso.",
+  "@sinMaterias": {
+    "description": "Estado vacío materias"
+  },
+  "sinCursos": "No se encontraron cursos.",
+  "@sinCursos": {
+    "description": "Estado vacío cursos"
+  },
+  "volverMisClases": "Volver a mis clases",
+  "@volverMisClases": {
+    "description": "Botón volver al listado de clases"
+  },
+  "modoUnoEnUno": "Uno en Uno",
+  "@modoUnoEnUno": {
+    "description": "Modo asistencia uno en uno"
+  },
+  "modoClasico": "Clásico",
+  "@modoClasico": {
+    "description": "Modo asistencia clásico (grid)"
+  },
+  "perfilFoto": "Foto de perfil",
+  "@perfilFoto": {
+    "description": "Etiqueta foto de perfil"
+  },
+  "perfilCambiarFoto": "Cambiar foto",
+  "@perfilCambiarFoto": {
+    "description": "Acción cambiar foto de perfil"
+  },
+  "errorServidor": "Error del servidor. Inténtalo de nuevo más tarde.",
+  "@errorServidor": {
+    "description": "Error genérico del servidor"
+  },
+  "mantenimiento": "El servidor está en mantenimiento. Vuelve en unos minutos.",
+  "@mantenimiento": {
+    "description": "Mensaje de modo mantenimiento"
+  },
+  "alumnosTitulo": "Alumnos",
+  "@alumnosTitulo": {
+    "description": "Título pantalla alumnos"
+  },
+  "alumnoNuevo": "Nuevo Alumno",
+  "@alumnoNuevo": {
+    "description": "Botón nuevo alumno"
+  },
+  "alumnoEditar": "Editar Alumno",
+  "@alumnoEditar": {
+    "description": "Título diálogo editar alumno"
+  },
+  "alumnoRegistrado": "Alumno registrado correctamente",
+  "@alumnoRegistrado": {
+    "description": "Mensaje éxito registro alumno"
+  },
+  "alumnoActualizado": "Alumno actualizado correctamente",
+  "@alumnoActualizado": {
+    "description": "Mensaje éxito actualización alumno"
+  },
+  "alumnoEliminado": "Alumno eliminado correctamente",
+  "@alumnoEliminado": {
+    "description": "Mensaje éxito eliminación alumno"
+  },
+  "errorRegistrarAlumno": "Error al registrar alumno",
+  "@errorRegistrarAlumno": {
+    "description": "Error al registrar alumno"
+  },
+  "alumnoNombre": "Nombre",
+  "@alumnoNombre": {
+    "description": "Campo nombre alumno"
+  },
+  "alumnoApellidos": "Apellidos",
+  "@alumnoApellidos": {
+    "description": "Campo apellidos alumno"
+  },
+  "alumnoEmail": "Email",
+  "@alumnoEmail": {
+    "description": "Campo email alumno"
+  },
+  "alumnoDni": "DNI",
+  "@alumnoDni": {
+    "description": "Campo DNI alumno"
+  },
+  "alumnoUsuario": "Usuario",
+  "@alumnoUsuario": {
+    "description": "Campo usuario alumno"
+  },
+  "alumnoContrasena": "Contraseña",
+  "@alumnoContrasena": {
+    "description": "Campo contraseña alumno"
+  },
+  "alumnoCurso": "Curso",
+  "@alumnoCurso": {
+    "description": "Campo curso del alumno"
+  },
+  "alumnoSinCurso": "Sin asignar",
+  "@alumnoSinCurso": {
+    "description": "Alumno sin curso asignado"
+  },
+  "alumnoSinMatricular": "Sin matricular",
+  "@alumnoSinMatricular": {
+    "description": "Alumnos sin matricular en ningún curso"
+  },
+  "profesoresTitulo": "Profesores",
+  "@profesoresTitulo": {
+    "description": "Título pantalla profesores"
+  },
+  "profesorNuevo": "Nuevo Profesor",
+  "@profesorNuevo": {
+    "description": "Botón nuevo profesor"
+  },
+  "profesorEditar": "Editar Profesor",
+  "@profesorEditar": {
+    "description": "Título diálogo editar profesor"
+  },
+  "profesorRegistrado": "Profesor registrado correctamente",
+  "@profesorRegistrado": {
+    "description": "Mensaje éxito registro profesor"
+  },
+  "profesorActualizado": "Profesor actualizado correctamente",
+  "@profesorActualizado": {
+    "description": "Mensaje éxito actualización profesor"
+  },
+  "profesorEliminado": "Profesor eliminado correctamente",
+  "@profesorEliminado": {
+    "description": "Mensaje éxito eliminación profesor"
+  },
+  "cursosTitulo": "Cursos",
+  "@cursosTitulo": {
+    "description": "Título pantalla cursos"
+  },
+  "cursoNuevo": "Crear Nuevo Curso",
+  "@cursoNuevo": {
+    "description": "Botón crear nuevo curso"
+  },
+  "cursoEliminar": "Eliminar Curso",
+  "@cursoEliminar": {
+    "description": "Botón eliminar curso"
+  },
+  "cursoEliminadoOk": "Curso eliminado correctamente",
+  "@cursoEliminadoOk": {
+    "description": "Mensaje éxito eliminación curso"
+  },
+  "cursoEliminadoError": "Error al eliminar curso. Compruebe si tiene dependencias activas.",
+  "@cursoEliminadoError": {
+    "description": "Error al eliminar curso con dependencias"
+  },
+  "cursoConAlumnos": "No se puede eliminar un curso que tiene alumnos matriculados.",
+  "@cursoConAlumnos": {
+    "description": "Error: curso con alumnos no se puede eliminar"
+  },
+  "cursoConfirmarEliminar": "¿Estás seguro de que deseas eliminar el curso {codigo}? Esta acción eliminará también las materias y el horario asociado.",
+  "@cursoConfirmarEliminar": {
+    "description": "Confirmación eliminación curso",
+    "placeholders": {
+      "codigo": {
+        "type": "String"
+      }
+    }
+  },
+  "matriculacionTitulo": "Matriculación de Alumnos ({count})",
+  "@matriculacionTitulo": {
+    "description": "Título sección matriculación con conteo",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "buscarAlumnos": "Buscar alumnos por nombre...",
+  "@buscarAlumnos": {
+    "description": "Placeholder búsqueda alumnos en matriculación"
+  },
+  "incidenciasTitulo": "Incidencias",
+  "@incidenciasTitulo": {
+    "description": "Título pantalla incidencias"
+  },
+  "incidenciasAbiertaDesc": "Nueva incidencia pendiente de revisión",
+  "@incidenciasAbiertaDesc": {
+    "description": "Desc estado abierta"
+  },
+  "incidenciasCerradaDesc": "Incidencia resuelta y archivada",
+  "@incidenciasCerradaDesc": {
+    "description": "Desc estado cerrada"
+  },
+  "incidenciasCursoGrupo": "CURSO/GRUPO",
+  "@incidenciasCursoGrupo": {
+    "description": "Etiqueta curso/grupo en detalle incidencia"
+  },
+  "incidenciasDescripcionHechos": "DESCRIPCIÓN DE LOS HECHOS",
+  "@incidenciasDescripcionHechos": {
+    "description": "Sección detalle incidencia: descripción"
+  },
+  "incidenciasAlumnoLabel": "ALUMNO",
+  "@incidenciasAlumnoLabel": {
+    "description": "Etiqueta alumno en detalle incidencia"
+  },
+  "incidenciasProfesorResponsable": "PROFESOR RESPONSABLE",
+  "@incidenciasProfesorResponsable": {
+    "description": "Etiqueta profesor en detalle incidencia"
+  },
+  "incidenciasEsValida": "ES VÁLIDA",
+  "@incidenciasEsValida": {
+    "description": "Botón resolución válida en incidencia"
+  },
+  "incidenciasEnProcesoDesc": "Se están tomando medidas disciplinarias",
+  "@incidenciasEnProcesoDesc": {
+    "description": "Descripción estado en proceso"
+  },
+  "incidenciasSistemaLimpio": "El sistema está limpio para los filtros seleccionados",
+  "@incidenciasSistemaLimpio": {
+    "description": "Mensaje cuando no hay incidencias"
+  },
+  "incidenciaNueva": "Nueva Incidencia",
+  "@incidenciaNueva": {
+    "description": "Botón nueva incidencia"
+  },
+  "horarioTitulo": "Horario",
+  "@horarioTitulo": {
+    "description": "Título pantalla horario"
+  },
+  "planEstudiosTitulo": "Planes de Estudios",
+  "@planEstudiosTitulo": {
+    "description": "Título pantalla planes de estudios"
+  },
+  "alumnosTituloTeacher": "Mis Alumnos",
+  "@alumnosTituloTeacher": {
+    "description": "Título pantalla alumnos del profesor"
+  },
+  "fichaAlumnoTitulo": "Ficha del Alumno",
+  "@fichaAlumnoTitulo": {
+    "description": "Título pantalla ficha alumno"
+  },
+  "ajustesTitulo": "Ajustes",
+  "@ajustesTitulo": {
+    "description": "Título pantalla ajustes"
+  },
+  "idioma": "Idioma",
+  "@idioma": {
+    "description": "Etiqueta idioma"
+  },
+  "tema": "Tema",
+  "@tema": {
+    "description": "Etiqueta tema visual"
+  },
+  "temaClaroOscuro": "Claro / Oscuro",
+  "@temaClaroOscuro": {
+    "description": "Opciones de tema"
+  },
+  "sinAlumnos": "No hay alumnos en este curso",
+  "@sinAlumnos": {
+    "description": "Estado vacío: sin alumnos"
+  },
+  "sinProfesores": "No hay profesores registrados",
+  "@sinProfesores": {
+    "description": "Estado vacío: sin profesores"
+  },
+  "sinIncidencias": "No hay incidencias registradas",
+  "@sinIncidencias": {
+    "description": "Estado vacío: sin incidencias"
+  },
+  "confirmarEliminar": "Confirmar eliminación",
+  "@confirmarEliminar": {
+    "description": "Título diálogo confirmar eliminación"
+  },
+  "accionNoDeshacer": "Esta acción no se puede deshacer.",
+  "@accionNoDeshacer": {
+    "description": "Advertencia acción irreversible"
+  },
+  "errorConexion": "Error de conexión",
+  "@errorConexion": {
+    "description": "Error genérico de conexión"
+  },
+  "reintentarBoton": "Reintentar",
+  "@reintentarBoton": {
+    "description": "Botón reintentar"
+  },
+  "horarioAlumno": "Horario del Alumno",
+  "@horarioAlumno": {
+    "description": "Título horario de alumno específico"
+  },
+  "horarioMio": "Mi Horario Escolar",
+  "@horarioMio": {
+    "description": "Título horario propio del alumno"
+  },
+  "horarioProfesor": "Horario del Profesor",
+  "@horarioProfesor": {
+    "description": "Título horario del profesor"
+  },
+  "horarioAlumnoSubtitulo": "Visualizando planificación semanal del alumno.",
+  "@horarioAlumnoSubtitulo": {
+    "description": "Subtítulo horario de alumno externo"
+  },
+  "horarioAlumnoSubtituloPropio": "Visualiza tu planificación semanal completa.",
+  "@horarioAlumnoSubtituloPropio": {
+    "description": "Subtítulo horario propio del alumno"
+  },
+  "horarioProfesorSubtitulo": "Gestiona sesiones semanales y eventos.",
+  "@horarioProfesorSubtitulo": {
+    "description": "Subtítulo horario del profesor"
+  },
+  "horarioDescanso": "DESCANSO",
+  "@horarioDescanso": {
+    "description": "Etiqueta bloque de descanso en horario"
+  },
+  "horarioEventosAsignacion": "Asignación de Eventos y Exámenes",
+  "@horarioEventosAsignacion": {
+    "description": "Título sección asignación de eventos"
+  },
+  "horarioTipoEvento": "Tipo de Evento",
+  "@horarioTipoEvento": {
+    "description": "Label tipo de evento en formulario"
+  },
+  "horarioFecha": "Fecha",
+  "@horarioFecha": {
+    "description": "Label fecha en formulario de evento"
+  },
+  "horarioDescripcionLabel": "Descripción",
+  "@horarioDescripcionLabel": {
+    "description": "Label descripción en formulario de evento"
+  },
+  "horarioFechaPlaceholder": "Seleccionar Fecha",
+  "@horarioFechaPlaceholder": {
+    "description": "Placeholder selector de fecha"
+  },
+  "horarioDescPlaceholder": "Ej. Examen Final DAW",
+  "@horarioDescPlaceholder": {
+    "description": "Placeholder descripción evento"
+  },
+  "horarioEventoAniadido": "Evento añadido correctamente",
+  "@horarioEventoAniadido": {
+    "description": "Snackbar evento añadido"
+  },
+  "horarioSinClases": "No hay clases programadas.",
+  "@horarioSinClases": {
+    "description": "Estado vacío horario sin clases"
+  },
+  "horarioErrorCargar": "Error al cargar horario: {error}",
+  "@horarioErrorCargar": {
+    "description": "Error cargando horario",
+    "placeholders": {
+      "error": {
+        "type": "Object"
+      }
+    }
+  },
+  "horarioAsignarEvento": "Asignar Evento: {fecha}",
+  "@horarioAsignarEvento": {
+    "description": "Título diálogo asignar evento",
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "horarioEventosDia": "Eventos: {fecha}",
+  "@horarioEventosDia": {
+    "description": "Título panel eventos del día",
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "horarioSinEventos": "No hay eventos asignados.",
+  "@horarioSinEventos": {
+    "description": "Estado vacío panel de eventos del día"
+  },
+  "horarioDescripcionEvento": "Descripción del Evento",
+  "@horarioDescripcionEvento": {
+    "description": "Hint campo descripción en diálogo evento"
+  },
+  "horarioAulaDefault": "Aula 101",
+  "@horarioAulaDefault": {
+    "description": "Nombre de aula por defecto en celda horario"
+  },
+  "fichaVolverAlumnos": "Volver a alumnos",
+  "@fichaVolverAlumnos": {
+    "description": "Botón volver a la lista de alumnos"
+  },
+  "fichaSinGrupo": "Sin grupo",
+  "@fichaSinGrupo": {
+    "description": "Alumno sin grupo asignado"
+  },
+  "fichaTelefono": "Teléfono",
+  "@fichaTelefono": {
+    "description": "Campo teléfono en ficha alumno"
+  },
+  "fichaNoEspecificado": "No especificado",
+  "@fichaNoEspecificado": {
+    "description": "Valor no especificado en ficha alumno"
+  },
+  "fichaDireccion": "Dirección",
+  "@fichaDireccion": {
+    "description": "Campo dirección en ficha alumno"
+  },
+  "fichaSinDireccion": "Sin dirección",
+  "@fichaSinDireccion": {
+    "description": "Alumno sin dirección"
+  },
+  "fichaEstadisticasAsistencia": "Estadísticas de Asistencia",
+  "@fichaEstadisticasAsistencia": {
+    "description": "Título sección estadísticas en ficha alumno"
+  },
+  "fichaDesgloseModulo": "Desglose por Módulo",
+  "@fichaDesgloseModulo": {
+    "description": "Título sección desglose por módulo"
+  },
+  "fichaSinDatosModulo": "No hay datos por módulo registrados.",
+  "@fichaSinDatosModulo": {
+    "description": "Estado vacío desglose por módulo"
+  },
+  "fichaAsistencia": "Asistencia",
+  "@fichaAsistencia": {
+    "description": "Stat: asistencia en ficha alumno"
+  },
+  "fichaFaltas": "Faltas",
+  "@fichaFaltas": {
+    "description": "Stat: faltas en ficha alumno"
+  },
+  "fichaRetrasos": "Retrasos",
+  "@fichaRetrasos": {
+    "description": "Stat: retrasos en ficha alumno"
+  },
+  "fichaJustificadas": "Justificadas",
+  "@fichaJustificadas": {
+    "description": "Stat: faltas justificadas en ficha alumno"
+  },
+  "fichaTotalClases": "Total Clases",
+  "@fichaTotalClases": {
+    "description": "Stat: total clases en ficha alumno"
+  },
+  "fichaHorasFaltadas": "Horas Faltadas",
+  "@fichaHorasFaltadas": {
+    "description": "Stat: horas faltadas en ficha alumno"
+  },
+  "fichaRiesgo": "RIESGO",
+  "@fichaRiesgo": {
+    "description": "Etiqueta riesgo en módulo"
+  },
+  "fichaLimiteExcedido": "LÍMITE EXCEDIDO",
+  "@fichaLimiteExcedido": {
+    "description": "Etiqueta límite excedido en módulo"
+  },
+  "fichaFaltasDetalle": "Faltas: {total} / {max} máx.",
+  "@fichaFaltasDetalle": {
+    "description": "Detalle faltas en módulo",
+    "placeholders": {
+      "total": {
+        "type": "String"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "fichaAsistencias": "{presentes}/{total} asistidas",
+  "@fichaAsistencias": {
+    "description": "Presentes/total en módulo",
+    "placeholders": {
+      "presentes": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "fichaVerHorario": "Ver Horario Completo",
+  "@fichaVerHorario": {
+    "description": "Botón ver horario completo del alumno"
+  },
+  "fichaCrearIncidencia": "Crear Incidencia",
+  "@fichaCrearIncidencia": {
+    "description": "Botón crear incidencia en ficha alumno"
+  },
+  "fichaHorarioDe": "Horario de {nombre}",
+  "@fichaHorarioDe": {
+    "description": "Título diálogo horario del alumno",
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "fichaRegistroAsistencia": "Registro de Asistencia",
+  "@fichaRegistroAsistencia": {
+    "description": "Título modal registro asistencia"
+  },
+  "fichaFaltasDe": "Faltas de {nombre}",
+  "@fichaFaltasDe": {
+    "description": "Título modal faltas del alumno",
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "fichaRetrasosDe": "Retrasos de {nombre}",
+  "@fichaRetrasosDe": {
+    "description": "Título modal retrasos del alumno",
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "fichaJustificadasDe": "Faltas Justificadas de {nombre}",
+  "@fichaJustificadasDe": {
+    "description": "Título modal faltas justificadas del alumno",
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "fichaErrorHistorial": "Error al cargar historial: {error}",
+  "@fichaErrorHistorial": {
+    "description": "Error cargando historial asistencia",
+    "placeholders": {
+      "error": {
+        "type": "Object"
+      }
+    }
+  },
+  "fichaSinRegistros": "No hay registros de este tipo.",
+  "@fichaSinRegistros": {
+    "description": "Estado vacío registros de asistencia"
+  },
+  "fichaRegistradoPor": "Registrado por: {nombre}",
+  "@fichaRegistradoPor": {
+    "description": "Profesor que registró la asistencia",
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "fichaSinFecha": "Sin fecha",
+  "@fichaSinFecha": {
+    "description": "Registro sin fecha disponible"
+  },
+  "alumnosTituloDesc": "Gestión centralizada del expediente académico y asistencia",
+  "@alumnosTituloDesc": {
+    "description": "Subtítulo pantalla alumnos admin"
+  },
+  "matricularAlumno": "Matricular Alumno",
+  "@matricularAlumno": {
+    "description": "Botón matricular alumno"
+  },
+  "todosCursos": "Todos los Cursos",
+  "@todosCursos": {
+    "description": "Opción todos los cursos en filtro"
+  },
+  "sinAlumnosEncontrados": "No se encontraron alumnos registrados",
+  "@sinAlumnosEncontrados": {
+    "description": "Estado vacío lista alumnos"
+  },
+  "confirmarBaja": "Confirmar Baja",
+  "@confirmarBaja": {
+    "description": "Título diálogo confirmar baja alumno"
+  },
+  "activarAlumno": "Activar Alumno",
+  "@activarAlumno": {
+    "description": "Título diálogo activar alumno"
+  },
+  "darDeBaja": "Dar de Baja",
+  "@darDeBaja": {
+    "description": "Acción dar de baja a alumno"
+  },
+  "reporteAsistenciaLabel": "Reporte de Asistencia",
+  "@reporteAsistenciaLabel": {
+    "description": "Tooltip botón reporte asistencia"
+  },
+  "editarExpediente": "Editar Expediente",
+  "@editarExpediente": {
+    "description": "Tooltip botón editar expediente alumno"
+  },
+  "profesoresTituloDesc": "Gestión integral del claustro y personal administrativo",
+  "@profesoresTituloDesc": {
+    "description": "Subtítulo pantalla profesores"
+  },
+  "registrarNuevoProfesor": "Registrar Nuevo",
+  "@registrarNuevoProfesor": {
+    "description": "Botón registrar nuevo profesor"
+  },
+  "buscarProfesoresHint": "Buscar profesores...",
+  "@buscarProfesoresHint": {
+    "description": "Placeholder búsqueda profesores móvil"
+  },
+  "buscarProfesoresDetalle": "Buscar por nombre, especialidad o departamento...",
+  "@buscarProfesoresDetalle": {
+    "description": "Placeholder búsqueda profesores desktop"
+  },
+  "filtrarPorCurso": "Filtrar por curso...",
+  "@filtrarPorCurso": {
+    "description": "Hint filtro por curso"
+  },
+  "filtrarPorRol": "Filtrar por rol...",
+  "@filtrarPorRol": {
+    "description": "Hint filtro por rol"
+  },
+  "todosRoles": "Todos los Roles",
+  "@todosRoles": {
+    "description": "Opción todos los roles en filtro"
+  },
+  "docenteLabel": "Docente",
+  "@docenteLabel": {
+    "description": "Etiqueta rol docente"
+  },
+  "cuerpoDocenteLabel": "CUERPO DOCENTE",
+  "@cuerpoDocenteLabel": {
+    "description": "Etiqueta cuerpo docente en tarjeta profesor"
+  },
+  "directivaAdminLabel": "DIRECTIVA / ADM.",
+  "@directivaAdminLabel": {
+    "description": "Etiqueta directiva/admin en tarjeta profesor"
+  },
+  "horarioSemanalReal": "HORARIO SEMANAL REAL",
+  "@horarioSemanalReal": {
+    "description": "Título diálogo horario semanal profesor"
+  },
+  "filtrarCursoMateria": "Filtrar por curso o materia...",
+  "@filtrarCursoMateria": {
+    "description": "Placeholder filtro horario por curso/materia"
+  },
+  "sinClasesHorarioProfesor": "No hay clases asignadas en el horario semanal",
+  "@sinClasesHorarioProfesor": {
+    "description": "Estado vacío horario semanal profesor"
+  },
+  "sinProfesoresEncontrados": "No se encontraron profesores con los filtros aplicados",
+  "@sinProfesoresEncontrados": {
+    "description": "Estado vacío lista profesores filtrada"
+  },
+  "gestionar": "Gestionar",
+  "@gestionar": {
+    "description": "Botón gestionar en tarjeta profesor"
+  },
+  "sesionLabel": "SESIÓN",
+  "@sesionLabel": {
+    "description": "Etiqueta sesión en columna de horario"
+  },
+  "incidenciasTituloDesc": "Control disciplinario, convivencia y alertas tempranas",
+  "@incidenciasTituloDesc": {
+    "description": "Subtítulo pantalla incidencias"
+  },
+  "registrarIncidencia": "Registrar Incidencia",
+  "@registrarIncidencia": {
+    "description": "Botón registrar nueva incidencia"
+  },
+  "actualizarEstado": "Actualizar Estado",
+  "@actualizarEstado": {
+    "description": "Título diálogo actualizar estado incidencia"
+  },
+  "eliminarRegistro": "Eliminar Registro",
+  "@eliminarRegistro": {
+    "description": "Título diálogo eliminar registro incidencia"
+  },
+  "incidenciaEliminadaDesc": "Esta acción es permanente y no se podrá recuperar la información de esta incidencia.",
+  "@incidenciaEliminadaDesc": {
+    "description": "Descripción confirmación eliminar incidencia"
+  },
+  "planEstudiosTituloDesc": "Gestión curricular y planes de estudios del centro",
+  "@planEstudiosTituloDesc": {
+    "description": "Subtítulo pantalla planes de estudios"
+  },
+  "cursosTituloDesc": "Gestión de grupos y matriculación de alumnos",
+  "@cursosTituloDesc": {
+    "description": "Subtítulo pantalla cursos"
+  },
+  "authPwdOlvidasteTitulo": "¿Olvidaste tu contraseña?",
+  "authPwdOlvidasteDesc": "Introduce tu correo electrónico y te enviaremos un código de recuperación.",
+  "authPwdCorreoHint": "Correo electrónico",
+  "authPwdEnviarCodigo": "ENVIAR CÓDIGO",
+  "authPwdVolverLogin": "Volver al Login",
+  "authPwdError": "Error: {error}",
+  "authPwdNoCoinciden": "Las contraseñas no coinciden",
+  "authPwdActualizadaOk": "✅ Contraseña actualizada correctamente",
+  "authPwdRestablecerTitulo": "Restablecer Contraseña",
+  "authPwdRestablecerDesc": "Introduce el código que has recibido y tu nueva contraseña.",
+  "authPwdCodigoHint": "CÓDIGO",
+  "authPwdNuevaContrasena": "Nueva Contraseña",
+  "authPwdConfirmarContrasena": "Confirmar Contraseña",
+  "authPwdActualizar": "ACTUALIZAR CONTRASEÑA",
+  "authMantTitulo": "Servidor en Mantenimiento",
+  "authMantDesc": "Estamos realizando mejoras en el sistema para brindarte un mejor servicio.\nPor favor, inténtalo de nuevo en unos minutos.",
+  "authMantReintentar": "REINTENTAR CONEXIÓN",
+  "authDevAutocompletar": "Autocompletar login (sólo devs)",
+  "authPwdOlvidasteLink": "¿Has olvidado tu contraseña?",
+  "horarioEventoExamen": "Examen",
+  "horarioEventoEvaluacion": "Evaluación",
+  "horarioEventoPresentacion": "Presentación",
+  "horarioEventoReunion": "Reunión",
+  "horarioEventoFestivo": "Festivo",
+  "horarioFechaLabel": "Fecha",
+  "diaLunes": "Lunes",
+  "diaMartes": "Martes",
+  "diaMiercoles": "Miércoles",
+  "diaJueves": "Jueves",
+  "diaViernes": "Viernes",
+  "userProfileGuardado": "Cambios guardados correctamente",
+  "userProfileMisDatos": "Mis Datos",
+  "userProfileSubtitulo": "Gestiona tu información personal y profesional.",
+  "userProfileFotoActualizada": "Foto actualizada correctamente",
+  "userProfileInfoPersonal": "Información Personal",
+  "userProfileNombreCompleto": "Nombre Completo",
+  "userProfileDniNie": "DNI/NIE",
+  "userProfileFechaNacimiento": "Fecha Nacimiento",
+  "userProfileInfoContacto": "Información de Contacto",
+  "userProfileTelefono": "Teléfono",
+  "userProfileDireccion": "Dirección",
+  "userProfileSeguridad": "Seguridad",
+  "userProfileSeguridadDesc": "Protege tu cuenta actualizando tu contraseña regularmente.",
+  "userProfileCambiarPassword": "Cambiar Contraseña",
+  "studentAsisError": "Error: {error}",
+  "studentAsisDesconocido": "Desconocido",
+  "studentAsisFaltas": "Faltas: {total} / {max} máx",
+  "studentAsisClasesAbrev": "{clases}/{horas} cl.",
+  "studentAsisClases": "{clases}/{horas} clases",
+  "studentAsisProgresoClases": "Progreso de Clases",
+  "studentFichaDatosDesc": "Datos personales y académicos de tu matrícula",
+  "studentFichaRolAlumno": "ALUMNO",
+  "studentFichaDatosPersonales": "Datos Personales",
+  "studentFichaDniNie": "DNI / NIE",
+  "studentFichaTelefono": "Teléfono",
+  "studentFichaDireccion": "Dirección",
+  "studentFichaFechaNacimiento": "Fecha de Nacimiento",
+  "studentFichaDatosAcademicos": "Datos Académicos",
+  "studentFichaGrupo": "Grupo",
+  "studentFichaEstadoMatricula": "Estado de Matrícula",
+  "studentFichaMateriasMatriculadas": "Materias Matriculadas",
+  "studentFichaModulos": "{count} módulos",
+  "studentFichaMatriculado": "MATRICULADO",
+  "studentFichaAlumno": "Alumno",
+  "studentFichaOfflineDesc": "Sin conexión. Mostrando los datos básicos de tu perfil.",
+  "teacherAlumnosAnterior": "Anterior",
+  "teacherAlumnosSiguiente": "Siguiente",
+  "teacherAlumnosSinGrupo": "Sin grupo",
+  "teacherAlumnosAsistencia": "Asistencia",
+  "teacherAlumnosFaltas": "Faltas",
+  "teacherSettingsSubtitulo": "Personaliza tu experiencia en la plataforma GAULA",
+  "teacherSettingsPerfilUsuario": "Perfil de Usuario",
+  "teacherSettingsPerfilDesc": "Gestiona tu información personal",
+  "teacherSettingsVerPerfil": "Ver Perfil",
+  "teacherSettingsEditarPerfil": "Editar Perfil",
+  "teacherSettingsSeguridad": "Seguridad",
+  "teacherSettingsSeguridadDesc": "Protege tu acceso al sistema",
+  "teacherSettingsCambiarPass": "Cambiar Contraseña",
+  "teacherSettingsSesionesActivas": "Sesiones Activas",
+  "teacherSettingsSeguridadProximamente": "Funcionalidad de seguridad próximamente",
+  "teacherSettingsNotificaciones": "Notificaciones",
+  "teacherSettingsNotificacionesDesc": "Configura las alertas y avisos",
+  "teacherSettingsAlertasAsistencia": "Alertas de Asistencia",
+  "teacherSettingsMensajesAlumnos": "Mensajes de Alumnos",
+  "teacherSettingsPreferencias": "Preferencias",
+  "teacherSettingsPreferenciasDesc": "Ajustes de visualización",
+  "teacherSettingsSoporte": "Soporte y Ayuda",
+  "teacherSettingsSoporteDesc": "Recursos de asistencia",
+  "teacherSettingsNormasCentro": "Normas del Centro",
+  "teacherSettingsContactarSoporte": "Contactar Soporte",
+  "teacherSettingsContactandoSoporte": "Contactando con soporte técnico...",
+  "teacherSettingsVersion": "GAULA • Desarrollado por VicePresi",
+  "teacherSettingsCopyright": "© 2026 Sistema de Gestión Educativa",
+  "teacherSettingsNotifPush": "Notificaciones Push",
+  "teacherSettingsNotifEmail": "Notificaciones por Email",
+  "adminDashErrorMetricas": "Error al cargar métricas: {error}",
+  "@adminDashErrorMetricas": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "adminDashDocentes": "Docentes",
+  "adminDashTrendEstable": "Estable",
+  "adminUsuariosErrorRedTitulo": "Error de red",
+  "adminUsuariosErrorRedMsg": "No se pudo conectar con el servidor",
+  "adminUsuariosTitulo": "Gestión de Usuarios",
+  "adminUsuariosMonitorTiempoReal": "MONITOR EN TIEMPO REAL",
+  "adminUsuariosTotal": "Total",
+  "adminUsuariosRol": "Rol...",
+  "adminUsuariosEstado": "Estado...",
+  "attendanceScheduleMyClasses": "Mis Clases",
+  "attendanceScheduleOtherClass": "Pasar Lista de Otra Clase",
+  "attendanceScheduleTodaySchedule": "Horario de Hoy",
+  "attendanceSchedulePendingClasses": "Tienes {count} {count, plural, =1{clase pendiente} other{clases pendientes}} de pasar lista",
+  "@attendanceSchedulePendingClasses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "attendanceScheduleNoClassesToday": "No hay clases programadas para hoy.",
+  "attendanceScheduleHistory": "Historial",
+  "attendanceScheduleSearchByDate": "Buscar por fecha...",
+  "attendanceScheduleNoHistory": "No hay historial de asistencia.",
+  "attendanceScheduleTakeAttendance": "Pasar Lista",
+  "attendanceScheduleCompleted": "Completado",
+  "attendanceScheduleSelectCourse": "Seleccionar Curso",
+  "attendanceScheduleSelectCourseHint": "Selecciona un curso para ver sus materias disponibles hoy.",
+  "attendanceScheduleSearchCourse": "Buscar por nombre o código...",
+  "attendanceScheduleErrorLoadingYears": "Error al cargar años: {error}",
+  "@attendanceScheduleErrorLoadingYears": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "attendanceScheduleNoCourses": "No se encontraron cursos.",
+  "attendanceScheduleSelectSubjectHint": "Selecciona la materia para ver sus sesiones.",
+  "attendanceScheduleNoSubjects": "No hay materias en este curso.",
+  "attendanceScheduleSubjectFallback": "Materia",
+  "attendanceScheduleSelectSessionHint": "Selecciona la sesión exacta para pasar lista.",
+  "attendanceScheduleNoSessionsToday": "No hay sesiones para hoy.",
+  "attendanceScheduleSessionsFallback": "Sesiones",
+  "attendanceScheduleAulaFallback": "Aula",
+  "attendanceDetailRegisteredBy": "REGISTRADO POR:",
+  "attendanceDetailSystemAuto": "SISTEMA / AUTOMÁTICO",
+  "attendanceDetailPresent": "PRESENTES",
+  "attendanceDetailAbsent": "AUSENTES",
+  "attendanceDetailAttendance": "ASISTENCIA",
+  "attendanceDetailStudentList": "LISTADO DE FALTAS",
+  "attendanceDetailNoRecords": "No hay registros de asistencia para esta sesión.",
+  "attendanceDetailStudentFallback": "Alumno",
+  "attendanceDetailStatusPresente": "PRESENTE",
+  "attendanceDetailStatusAusente": "AUSENTE",
+  "attendanceDetailStatusRetraso": "RETRASO",
+  "attendanceDetailStatusJustificado": "JUSTIFICADO",
+  "attendanceDetailStatusPendiente": "PENDIENTE",
+  "adminAuditoriaTitle": "Registro de Auditoría",
+  "adminAuditoriaSubtitle": "Trazabilidad completa de acciones administrativas",
+  "adminAuditoriaEmpty": "SIN REGISTROS DE ACTIVIDAD",
+  "adminConfigTitle": "CONFIGURACIÓN",
+  "adminConfigSubtitle": "Gestiona los parámetros globales y mantenimiento",
+  "adminConfigSecurityTitle": "Seguridad y Acceso",
+  "adminConfigSecurityDesc": "Control de credenciales y sesiones",
+  "adminConfigSecurityChangePassword": "Cambiar Contraseña",
+  "adminConfigSecurityActiveSessions": "Sesiones Activas",
+  "adminConfigSecurity2FA": "Doble Factor (2FA)",
+  "adminConfigReglamentoTitle": "Reglamento del Centro",
+  "adminConfigReglamentoDesc": "Normativa y convivencia escolar",
+  "adminConfigReglamentoEdit": "Editar Reglamento",
+  "adminConfigReglamentoHistory": "Historial de Versiones",
+  "adminConfigReglamentoPublish": "Publicar Cambios",
+  "adminConfigAuditoriaTitle": "Auditoría de Cambios",
+  "adminConfigAuditoriaDesc": "Registro de actividad administrativa",
+  "adminConfigAuditoriaViewLog": "Ver Log de Actividad",
+  "adminConfigAuditoriaExport": "Exportar Reporte",
+  "adminConfigAuditoriaAlerts": "Alertas de Auditoría",
+  "adminConfigComingSoon": "PRONTO",
+  "adminPermTitle": "Matriz RBAC",
+  "adminPermSubtitle": "Control granular de seguridad y accesos",
+  "adminPermSyncButton": "SINCRONIZAR POLÍTICAS",
+  "adminPermColRolPerfil": "ROL / PERFIL",
+  "adminPermPermGestionAcademica": "Gestión Académica",
+  "adminPermPermPasarLista": "Pasar Lista",
+  "adminPermPermVerHistorial": "Ver Historial",
+  "adminPermPermCrearIncidencias": "Crear Incidencias",
+  "adminPermPermBorrarRegistros": "Borrar Registros",
+  "adminPermPermConfigurarSistema": "Configurar Sistema",
+  "adminPermPermEditarPerfiles": "Editar Perfiles",
+  "adminPermPermExportarDatos": "Exportar Datos",
+  "adminPermToastSyncTitle": "Matriz Sincronizada",
+  "adminPermToastSyncMessage": "Los permisos globales han sido actualizados.",
+  "adminPermToastErrorTitle": "Error",
+  "adminPermToastErrorMessage": "No se pudo guardar la configuración.",
+  "adminPermErrorPrefix": "Error: {error}",
+  "@adminPermErrorPrefix": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "adminRolesTitle": "Gestión de Roles",
+  "adminRolesSubtitle": "Configuración de perfiles y jerarquías de sistema",
+  "adminRolesSaveButton": "GUARDAR CAMBIOS",
+  "adminRolesBadgeSystem": "SISTEMA",
+  "adminRolesNewProfileTitle": "Nuevo Perfil",
+  "adminRolesNewProfileDesc": "Define un nuevo rol para la gestión de usuarios.",
+  "adminRolesFieldLabel": "NOMBRE DEL ROL",
+  "adminRolesAddButton": "AÑADIR ROL",
+  "adminRolesInfoBox": "Asigna permisos en la Matriz después de crear el rol.",
+  "adminRolesToastSuccessTitle": "Éxito",
+  "adminRolesToastSuccessMessage": "Lista de roles actualizada correctamente.",
+  "adminRolesToastErrorTitle": "Error",
+  "adminRolesToastErrorMessage": "No se pudo guardar la configuración.",
+  "adminRolesErrorPrefix": "Error: {error}",
+  "@adminRolesErrorPrefix": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "adminAnioTitulo": "Años Académicos",
+  "adminAnioSubtitulo": "Gestiona los periodos escolares del centro.",
+  "adminAnioNuevo": "Nuevo Año",
+  "adminAnioActivo": "ACTIVO",
+  "adminAnioCursos": "{n} cursos",
+  "@adminAnioCursos": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "adminAnioMiembros": "{n} miembros",
+  "@adminAnioMiembros": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "adminAnioDesactivar": "Desactivar",
+  "adminAnioActivar": "Activar",
+  "adminAnioEliminar": "Eliminar",
+  "adminAnioTooltipDesactivar": "Desactivar",
+  "adminAnioTooltipActivar": "Activar",
+  "adminAnioTooltipEditar": "Editar",
+  "adminAnioTooltipEliminar": "Eliminar",
+  "adminAnioTooltipNoEliminarActivo": "No se puede eliminar el año activo",
+  "adminAnioTooltipNoEliminarAlumnos": "No se puede eliminar (tiene alumnos)",
+  "adminAnioErrorCargar": "Error al cargar los datos: {e}",
+  "@adminAnioErrorCargar": {
+    "placeholders": {
+      "e": {
+        "type": "Object"
+      }
+    }
+  },
+  "adminAnioReintentar": "Reintentar",
+  "adminAnioVacio": "No hay años académicos registrados.",
+  "adminAnioCrearPrimero": "Crear el primero",
+  "adminAnioDialogNuevo": "Nuevo Año Académico",
+  "adminAnioDialogEditar": "Editar Año Académico",
+  "adminAnioNombrePeriodo": "Nombre del período",
+  "adminAnioNombreHint": "Ej. 2025-2026",
+  "adminAnioNombreObligatorio": "Campo obligatorio",
+  "adminAnioFechaInicio": "Fecha de inicio",
+  "adminAnioFechaFin": "Fecha de fin",
+  "adminAnioSeleccionar": "Seleccionar",
+  "adminAnioDescripcion": "Descripción (opcional)",
+  "adminAnioDescripcionHint": "Breve descripción del período",
+  "adminAnioCancelar": "Cancelar",
+  "adminAnioGuardarCambios": "Guardar Cambios",
+  "adminAnioCrearAnio": "Crear Año",
+  "adminAnioDesactivarTitulo": "Desactivar Año Académico",
+  "adminAnioDesactivarMensaje": "¿Seguro que quieres desactivar \"{nombre}\"? Éste pasará a modo histórico.",
+  "@adminAnioDesactivarMensaje": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "adminAnioActivarTitulo": "Activar Año Académico",
+  "adminAnioActivarMensaje": "¿Seguro que quieres activar \"{nombre}\"? El año activo actualmente pasará a modo histórico.",
+  "@adminAnioActivarMensaje": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "adminAnioEliminarTitulo": "Eliminar Año Académico",
+  "adminAnioEliminarMensaje": "¿Eliminar \"{nombre}\" permanentemente? Esta acción no se puede deshacer.",
+  "@adminAnioEliminarMensaje": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "adminAnioSnackDesactivado": "Año desactivado",
+  "adminAnioSnackActivado": "Año activado",
+  "adminAnioSnackEliminado": "Año eliminado",
+  "adminAnioSnackGuardado": "Año guardado correctamente",
+  "adminAnioSnackErrorGuardar": "Error al guardar",
+  "adminAnioSnackNoEliminarActivo": "No puedes eliminar el año activo.",
+  "adminAnioDuplicado": "Ya existe un año académico con el nombre \"{nombre}\".",
+  "@adminAnioDuplicado": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "adminAnioSeleccionarFechas": "Selecciona las fechas de inicio y fin.",
+  "adminAnioErrorConexion": "Error de conexión",
+  "adminHorarioTitulo": "Calendario",
+  "adminHorarioTituloDesktop": "Calendario de Eventos",
+  "adminHorarioSubtitulo": "Planificación académica y recordatorios del centro",
+  "adminHorarioNuevoEvento": "NUEVO EVENTO",
+  "adminHorarioEventosDia": "Eventos del Día",
+  "adminHorarioSinEventos": "No hay eventos para hoy",
+  "adminHorarioProgramarEvento": "Programar Festivo",
+  "adminHorarioTituloEvento": "Título del día festivo",
+  "adminHorarioTipo": "Tipo",
+  "adminHorarioCancelar": "CANCELAR",
+  "adminHorarioGuardar": "GUARDAR",
+  "adminHorarioEliminadoTitulo": "Eliminado",
+  "adminHorarioEliminadoMensaje": "El evento ha sido borrado.",
+  "adminHorarioErrorTitulo": "Error",
+  "adminReglamentoTitulo": "Reglamento",
+  "adminReglamentoSubtitulo": "Gestión de versiones y vigencia legal",
+  "adminReglamentoHistorialTitulo": "Historial Normativo",
+  "adminReglamentoHistorialSubtitulo": "Gestión de versiones y vigencia legal",
+  "adminReglamentoHistorialBtn": "Historial",
+  "adminReglamentoNuevaVersion": "NUEVA VERSIÓN",
+  "adminReglamentoPublicar": "PUBLICAR CAMBIOS",
+  "adminReglamentoVersionHint": "Nombre de la Versión...",
+  "adminReglamentoVersionActivaLabel": "VERSIÓN ACTIVA",
+  "adminReglamentoActivoBadge": "ACTIVO",
+  "adminReglamentoEditorPlaceholder": "Comienza a redactar la normativa del centro...",
+  "adminReglamentoNuevaBorrador": "Nueva versión en borrador",
+  "adminReglamentoModificandoVersion": "Modificando versión del {fecha}",
+  "@adminReglamentoModificandoVersion": {
+    "placeholders": {
+      "fecha": {
+        "type": "String"
+      }
+    }
+  },
+  "adminReglamentoErrorTitulo": "Error",
+  "adminReglamentoExitoTitulo": "Éxito",
+  "adminReglamentoVersionRequerida": "Nombre de versión requerido",
+  "adminReglamentoGuardadoOk": "Reglamento guardado y sincronizado",
+  "adminReglamentoFalloGuardar": "Fallo al guardar: {error}",
+  "@adminReglamentoFalloGuardar": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "adminReglamentoErrorCargar": "Error al cargar historial",
+  "adminHistorialTitulo": "Historial",
+  "adminHistorialSubtitulo": "Auditoría global de registros",
+  "adminHistorialTituloDesktop": "Historial de Asistencia",
+  "adminHistorialSubtituloDesktop": "Auditoría global de registros de clase y ausentismo",
+  "adminHistorialBuscarHint": "Buscar materia o profesor...",
+  "adminHistorialCualquierFecha": "Cualquier fecha",
+  "adminHistorialCursoLabel": "CURSO",
+  "adminHistorialGrupoHint": "Grupo",
+  "adminHistorialTodos": "Todos",
+  "adminHistorialTodosGrupos": "Todos los grupos",
+  "adminHistorialSinRegistros": "SIN REGISTROS QUE MOSTRAR",
+  "adminHistorialSinDocente": "Sin docente",
+  "adminHistorialAlumnos": "{attended}/{total} ALUMNOS",
+  "@adminHistorialAlumnos": {
+    "placeholders": {
+      "attended": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "adminProgramConfigTitulo": "Configuración del Programa",
+  "adminProgramConfigSubtitulo": "Gestión de políticas institucionales, roles de usuario y parámetros globales del centro",
+  "adminProgramConfigRolesTitulo": "Roles y Matriz de Permisos",
+  "adminProgramConfigRolesDesc": "Control granular sobre las capacidades de cada perfil",
+  "adminProgramConfigMatrizPermisos": "Matriz de Permisos",
+  "adminProgramConfigMatrizPermisosDesc": "Mapa de privilegios por cada rol del sistema",
+  "adminProgramConfigGestionRoles": "Gestión de Roles",
+  "adminProgramConfigGestionRolesDesc": "Añadir, editar o eliminar etiquetas de usuario",
+  "adminProgramConfigCalendarioTitulo": "Calendario Institucional",
+  "adminProgramConfigCalendarioDesc": "Configuración de festivos y eventos regionales",
+  "adminProgramConfigFestivos": "Calendario de Festivos",
+  "adminProgramConfigFestivosDesc": "Gestionar días no lectivos y puentes",
+  "adminProgramConfigEventosCentro": "Eventos del Centro",
+  "adminProgramConfigEventosCentroDesc": "Graduaciones, claustros y festividades propias",
+  "adminProgramConfigReglamentoTitulo": "Reglamento de Convivencia",
+  "adminProgramConfigReglamentoDesc": "Normas y pautas de comportamiento del centro",
+  "adminProgramConfigVerEditarReglamento": "Ver / Editar Reglamento",
+  "adminProgramConfigVerEditarReglamentoDesc": "Gestión detallada de normas, derechos y deberes",
+  "adminProgramConfigMantenimientoTitulo": "Mantenimiento del Sistema",
+  "adminProgramConfigMantenimientoDesc": "Parámetros técnicos y logs de actividad",
+  "adminProgramConfigAuditoria": "Auditoría de Cambios",
+  "adminProgramConfigAuditoriaDesc": "Ver historial de modificaciones administrativas",
+  "adminProgramConfigLimpieza": "Limpieza de Temporales",
+  "adminProgramConfigLimpiezaDesc": "Purgar archivos de subida no referenciados",
+  "adminProgramConfigUsuarios": "Gestión de Usuarios",
+  "adminProgramConfigUsuariosDesc": "Control de IPs, sesiones y actividad de cuentas",
+  "adminProgramConfigEnDesarrolloTitulo": "Funcionalidad en Desarrollo",
+  "adminProgramConfigEnDesarrolloDesc": "Esta característica estará disponible en la próxima actualización del sistema GAULA.",
+  "adminProgramConfigEntendido": "ENTENDIDO",
+  "adminProgramConfigEnDesarrolloBadge": "EN DESARROLLO",
+  "addAlumnoEditTitle": "Editar Alumno",
+  "addAlumnoAddTitle": "Añadir Nuevo Alumno",
+  "addAlumnoEditSubtitle": "Modifica los datos del alumno",
+  "addAlumnoAddSubtitle": "Completa la información para la matrícula",
+  "addAlumnoSectionPersonal": "INFORMACIÓN PERSONAL",
+  "addAlumnoFieldNombre": "Nombre *",
+  "addAlumnoHintNombre": "Ej: Juan",
+  "addAlumnoFieldApellidos": "Apellidos *",
+  "addAlumnoHintApellidos": "Ej: García López",
+  "addAlumnoFieldDni": "DNI/NIE",
+  "addAlumnoSectionContacto": "CONTACTO Y MATRÍCULA",
+  "addAlumnoFieldEmail": "Email *",
+  "addAlumnoHintEmail": "alumno@gaula.edu",
+  "addAlumnoFieldUsuario": "Usuario (Opcional)",
+  "addAlumnoHintUsuario": "juan.garcia",
+  "addAlumnoFieldPassword": "Contraseña *",
+  "addAlumnoHintPassword": "Mín. 6 carac.",
+  "addAlumnoFieldTelefono": "Teléfono",
+  "addAlumnoHintTelefono": "+34 600...",
+  "addAlumnoFieldDireccion": "Dirección",
+  "addAlumnoHintDireccion": "Calle Principal, 123, Madrid",
+  "addAlumnoSectionMaterias": "MATERIAS (MATRÍCULA)",
+  "addAlumnoButtonGuardar": "Guardar Cambios",
+  "addAlumnoButtonRegistrar": "Registrar Alumno",
+  "addAlumnoButtonCancelar": "Cancelar",
+  "addAlumnoFieldFechaNacimiento": "Fecha de Nacimiento",
+  "addAlumnoSeleccionarFecha": "Seleccionar...",
+  "addAlumnoSuccessRegistrado": "Alumno registrado correctamente",
+  "addAlumnoErrorRegistrar": "Error al registrar alumno",
+  "addAlumnoCampoObligatorio": "Campo obligatorio",
+  "addIncidenciaTitulo": "Nueva Incidencia",
+  "addIncidenciaFieldTitulo": "Título",
+  "addIncidenciaHintTitulo": "Ej: Comportamiento disruptivo",
+  "addIncidenciaFieldAlumno": "Alumno",
+  "addIncidenciaSelectAlumno": "Seleccione alumno",
+  "addIncidenciaErrorAlumnos": "Error cargando alumnos",
+  "addIncidenciaFieldProfesor": "Profesor que reporta",
+  "addIncidenciaSelectProfesor": "Seleccione profesor",
+  "addIncidenciaErrorProfesores": "Error cargando profesores",
+  "addIncidenciaFieldGravedad": "Gravedad",
+  "addIncidenciaHintGravedad": "Nivel de gravedad",
+  "addIncidenciaFieldDescripcion": "Descripción detallada",
+  "addIncidenciaHintDescripcion": "Detalles de lo sucedido...",
+  "addIncidenciaButtonCrear": "Crear Incidencia",
+  "addIncidenciaButtonCancelar": "Cancelar",
+  "addIncidenciaValidacionSeleccion": "Por favor seleccione alumno y profesor",
+  "addIncidenciaSuccessCreada": "Incidencia creada correctamente",
+  "addIncidenciaErrorCrear": "Error al crear incidencia",
+  "addIncidenciaCampoObligatorio": "Campo obligatorio",
+  "addIncidenciaBuscar": "Buscar...",
+  "addIncidenciaNoResultados": "No se encontraron resultados",
+  "addProfesorEditTitle": "Editar Profesor",
+  "addProfesorAddTitle": "Añadir Profesor",
+  "addProfesorEditSubtitle": "Modifica los accesos",
+  "addProfesorAddSubtitle": "Crea un nuevo usuario administrativo o docente",
+  "addProfesorFieldNombre": "Nombre *",
+  "addProfesorHintNombre": "Ej: Roberto",
+  "addProfesorFieldApellidos": "Apellidos *",
+  "addProfesorHintApellidos": "Ej: Sánchez Domínguez",
+  "addProfesorFieldEmail": "Email *",
+  "addProfesorHintEmail": "ejemplo@gaula.edu",
+  "addProfesorFieldEspecialidades": "Especialidades",
+  "addProfesorHintEspecialidades": "Ej: Informática, Programación",
+  "addProfesorFieldRol": "Rol de Usuario *",
+  "addProfesorRolDocente": "Profesor / Docente",
+  "addProfesorRolAdmin": "Administrador",
+  "addProfesorButtonGuardar": "Guardar Cambios",
+  "addProfesorButtonRegistrar": "Registrar Profesor",
+  "addProfesorButtonCancelar": "Cancelar",
+  "addProfesorSuccessActualizado": "Datos actualizados",
+  "addProfesorSuccessRegistrado": "Profesor registrado",
+  "addProfesorCampoObligatorio": "Campo obligatorio",
+  "addProfesorEmailInvalido": "Formato de email inválido",
+  "adminCursoHorarioTitulo": "Horario Semanal: {codigoGrupo}",
+  "@adminCursoHorarioTitulo": {
+    "placeholders": {
+      "codigoGrupo": {
+        "type": "String"
+      }
+    }
+  },
+  "adminCursoHorarioGeneradoTitle": "Generado",
+  "adminCursoHorarioGeneradoMsg": "Horario generado automáticamente",
+  "adminCursoHorarioErrorTitle": "Error",
+  "adminCursoHorarioButtonGenerar": "Generar Automáticamente",
+  "adminCursoHorarioButtonAsignar": "Asignar Módulo",
+  "adminCursoHorarioRecreo": "RECREO",
+  "adminCursoHorarioErrorCargar": "Error al cargar horario: {error}",
+  "@adminCursoHorarioErrorCargar": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "adminCursoHorarioDesconocido": "Desconocido",
+  "adminCursoHorarioEliminadoTitle": "Eliminado",
+  "adminCursoHorarioEliminadoMsg": "Sesión eliminada correctamente",
+  "adminCursoHorarioErrorAsignar": "Error al asignar",
+  "adminCursoHorarioAsignadoTitle": "Asignado",
+  "adminCursoHorarioAsignadoMsg": "Sesión asignada correctamente",
+  "adminCursoHorarioElegirColor": "Elegir Color: {nombre}",
+  "@adminCursoHorarioElegirColor": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "adminCursoHorarioNoProfesores": "No hay profesores disponibles",
+  "adminCursoHorarioDia": "Día",
+  "adminCursoHorarioHoraInicio": "Hora Inicio",
+  "adminCursoHorarioModuloMateria": "Módulo / Materia",
+  "adminCursoHorarioSeleccionarModulo": "Seleccionar módulo",
+  "adminCursoHorarioNoMaterias": "No hay materias en el curso",
+  "adminCursoHorarioProfesorAsignado": "Profesor Asignado",
+  "adminCursoHorarioBuscarProfesor": "Buscar profesor...",
+  "adminCursoHorarioSoloLibres": "Solo libres a las {hora}",
+  "@adminCursoHorarioSoloLibres": {
+    "placeholders": {
+      "hora": {
+        "type": "String"
+      }
+    }
+  },
+  "adminCursoHorarioErrorProfesores": "Error cargando profesores",
+  "adminCursoHorarioLibre": "Libre",
+  "adminCursoHorarioOcupado": "Ocupado",
+  "adminCursoHorarioCancelar": "Cancelar",
+  "adminCursoHorarioAsignarButton": "Asignar",
+  "adminPlanEstudiosConfirmarEliminarMateria": "¿Estás seguro de que quieres eliminar la materia \"{nombre}\"? Esta acción no se puede deshacer.",
+  "@adminPlanEstudiosConfirmarEliminarMateria": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "adminPlanEstudiosErrorEliminarMateria": "Error al eliminar materia.",
+  "adminPlanEstudiosConfirmarEliminarPlantilla": "¿Estás seguro de que quieres eliminar esta plantilla? Esta acción no se puede deshacer.",
+  "adminPlanEstudiosMateriaCount": "{count} materias",
+  "@adminPlanEstudiosMateriaCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "adminPlanEstudiosModulosYProyectos": "Módulos y Proyectos",
+  "adminPlanEstudiosTipoCodigoLabel": "{tipo} — Código: {codigo}",
+  "@adminPlanEstudiosTipoCodigoLabel": {
+    "placeholders": {
+      "tipo": {
+        "type": "String"
+      },
+      "codigo": {
+        "type": "String"
+      }
+    }
+  },
+  "adminPlanEstudiosEditarPlan": "Editar Plan de Estudios",
+  "adminPlanEstudiosCrearPlan": "Crear Plan de Estudios",
+  "adminPlanEstudiosNombreCurso": "Nombre del Curso",
+  "adminPlanEstudiosNombreCursoHint": "ej. Desarrollo de Aplicaciones Multiplataforma",
+  "adminPlanEstudiosCodigo": "Código",
+  "adminPlanEstudiosaCodigoHint": "ej. DAM",
+  "adminPlanEstudiosDescripcion": "Descripción (opcional)",
+  "adminPlanEstudiosDescripcionHint": "Breve descripción del curso",
+  "adminPlanEstudiosColorPlantilla": "Color de la Plantilla",
+  "adminPlanEstudiosSeleccionarColor": "Selecciona un color",
+  "adminPlanEstudiosAniadirMateria": "Añadir materia",
+  "adminPlanEstudiosEditarMateria": "Editar materia",
+  "adminPlanEstudiosNombreMateria": "Nombre",
+  "adminPlanEstudiosNombreMateriaHint": "ej. Programación",
+  "adminPlanEstudiosTipoMateria": "Tipo de Materia",
+  "adminPlanEstudiosHoras": "Horas",
+  "adminPlanEstudiosMateriasAniadidas": "Materias añadidas:",
+  "adminAlumnosConfirmarDesactivar": "¿Está seguro de que desea desactivar el expediente de {nombre}?",
+  "@adminAlumnosConfirmarDesactivar": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "adminAlumnosConfirmarActivar": "¿Está seguro de que desea activar el expediente de {nombre}?",
+  "@adminAlumnosConfirmarActivar": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "adminPlanEstudiosTipoProyecto": "Proyecto",
+  "adminPlanEstudiosTipoAsignatura": "Asignatura",
+  "adminPlanEstudiosTipoModulo": "Módulo",
+  "adminProfesoresRolLabel": "Rol",
+  "adminProfesoresDesconocido": "Desconocido",
+  "adminProfesoresCursoLabel": "Curso: {cursoId}",
+  "@adminProfesoresCursoLabel": {
+    "placeholders": {
+      "cursoId": {
+        "type": "String"
+      }
+    }
+  },
+  "procesandoExportacion": "PROCESANDO EXPORTACIÓN...",
+  "@procesandoExportacion": {
+    "description": "Overlay carga backup"
+  },
+  "estaImaTardar": "ESTO PUEDE TARDAR UNOS SEGUNDOS",
+  "@estaImaTardar": {
+    "description": "Overlay carga backup subtexto"
+  },
+  "adminCursosNoEliminarConAlumnos": "No se puede eliminar un curso con alumnos matriculados.",
+  "adminCursoEliminadoOk": "Curso eliminado correctamente.",
+  "adminCursoEliminadoError": "Error al eliminar el curso.",
+  "adminCursosVolverCursos": "Volver a Cursos",
+  "adminCursosCompletaInfo": "Completa la información del curso",
+  "adminCursosPlantillaCurso": "Plan de Estudios",
+  "adminCursosSeleccionaPlantilla": "Selecciona un plan",
+  "adminCursosValidarPlantilla": "Selecciona un plan de estudios",
+  "adminCursosTurnoOpcional": "Turno (opcional)",
+  "adminCursosEtapa": "Etapa",
+  "adminCursosDesdoblamiento": "Desdoblamiento",
+  "adminCursosCodigoGrupo": "Código de Grupo",
+  "adminCursosAnioAcademico": "Año Académico",
+  "adminCursosSinAnios": "No hay años académicos disponibles",
+  "adminCursosValidarAnio": "Selecciona un año académico",
+  "adminCursosValidarTutor": "Debes asignar un tutor al curso.",
+  "adminCursosValidarMateria": "Debes seleccionar al menos una materia para el curso.",
+  "adminCursosValidarCodigoGrupoVacio": "El código de grupo es obligatorio y no debe coincidir con ningún otro código del mismo año.",
+  "adminCursosProfesorTutor": "Profesor Tutor",
+  "adminCursosMatriculacion": "Matriculación: {count} alumno(s)",
+  "@adminCursosMatriculacion": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "adminCursosMaterias": "Materias",
+  "adminCursosSinMaterias": "No hay materias asignadas a este curso.",
+  "adminCursosBuscarAnio": "Buscar año...",
+  "adminCursosOrdenHint": "A-Z (Opcional)",
+  "adminCursosCodigoHint": "Ej: DAM1M",
+  "adminCursosTutorAsignado": "Tutor asignado",
+  "adminCursosBuscarProfesor": "Buscar profesor por nombre...",
+  "adminCursosSeleccionaAsignaturas": "Selecciona las asignaturas que se impartirán",
+  "adminCursosVistaPrevia": "Vista Previa del Curso",
+  "adminCursosPlantillaOficial": "Plantilla Oficial",
+  "adminCursosInstanciados": "Cursos Instanciados",
+  "adminCursosVisualizacion": "Visualización de grupos activos",
+  "adminCursosAniadirNuevo": "Añadir Nuevo Curso",
+  "adminCursosNoRegistrados": "No hay cursos registrados para esta plantilla",
+  "adminCursosEliminarTooltip": "Eliminar curso",
+  "adminCursosGestionarHorario": "Gestionar Horario",
+  "adminCursosGestionarAlumnos": "Gestionar Alumnos",
+  "adminCursosPlanificacion": "Planificación Académica",
+  "adminCursosProgresoModulo": "Progreso del Módulo",
+  "adminCursosTemporalidad": "Temporalidad",
+  "adminCursosEditarFechas": "Editar Fechas",
+  "adminCursosVolverDetalles": "Volver a detalles",
+  "adminCursosVolverGrupos": "Volver a grupos",
+  "adminCursosSinTutor": "Sin tutor",
+  "adminCursosAlumnosMatriculados": "Alumnos Matriculados",
+  "adminCursosAniadirAlumno": "Añadir Alumno",
+  "adminCursosSinAlumnos": "No hay alumnos matriculados en este curso.",
+  "adminCursosQuitarAlumno": "Quitar Alumno",
+  "adminDashResumenEjecutivo": "Resumen Ejecutivo",
+  "adminDashMetricasTiempoReal": "Métricas principales del centro en tiempo real",
+  "adminDashAccionesRapidas": "Acciones Rápidas",
+  "adminDashMatricularAlumno": "Matricular Alumno",
+  "adminDashGestionarFestivos": "Gestionar Festivos",
+  "adminDashRevisarPermisos": "Revisar Permisos",
+  "adminDashBienvenido": "¡Bienvenido de nuevo, Administrador!",
+  "adminDashVerReporteMensual": "Ver reporte mensual",
+  "adminDashAsistenciaGlobal": "Asistencia Global",
+  "adminDashAsistenciaSubtitulo": "Rendimiento promedio de los últimos 7 días",
+  "adminDashIncidenciasPorCurso": "Incidencias por Curso (Top 5)",
+  "adminDashSinIncidencias": "Sin incidencias registradas",
+  "adminDashErrorGrafico": "Error al cargar gráfico",
+  "adminDashAlertasRecientes": "Alertas Recientes",
+  "adminDashSinAlertas": "Sin alertas recientes",
+  "adminDashFiltroAplicado": "Filtro aplicado",
+  "adminDashMostrandoDatos": "Mostrando datos de {periodo}",
+  "@adminDashMostrandoDatos": {
+    "placeholders": {
+      "periodo": {
+        "type": "String"
+      }
+    }
+  },
+  "adminDashSeleccionarEtapa": "Selecciona la etapa actual de esta incidencia",
+  "adminAuditoriaTitulo": "Auditoría del Sistema",
+  "adminAuditoriaSubtitulo": "Registro de actividad y cambios críticos",
+  "adminAuditoriaFiltrarPor": "Filtrar por acción",
+  "adminAuditoriaBuscar": "Buscar en el registro...",
+  "adminAuditoriaSinRegistros": "No hay registros de auditoría.",
+  "adminAuditoriaUsuario": "Usuario",
+  "adminAuditoriaAccion": "Acción",
+  "adminAuditoriaFecha": "Fecha",
+  "adminAuditoriaDetalle": "Detalle",
+  "adminAuditoriaTodos": "TODOS",
+  "adminAuditoriaExportar": "Exportar",
+  "adminUsuariosSubtitulo": "Administra los accesos al sistema",
+  "adminUsuariosBuscar": "Buscar usuario...",
+  "adminUsuariosNuevo": "Nuevo Usuario",
+  "adminUsuariosEmail": "Email",
+  "adminUsuariosSinUsuarios": "No hay usuarios registrados.",
+  "adminUsuariosEliminarTitulo": "Eliminar Usuario",
+  "adminUsuariosEliminarDesc": "¿Estás seguro de que deseas eliminar este usuario? Esta acción no se puede deshacer.",
+  "adminUsuariosActivar": "Activar",
+  "adminUsuariosDesactivar": "Desactivar",
+  "adminUsuariosEditar": "Editar",
+  "adminUsuariosActivadoMsg": "Usuario activado correctamente.",
+  "adminUsuariosDesactivadoMsg": "Usuario desactivado correctamente.",
+  "adminUsuariosEliminadoMsg": "Usuario eliminado correctamente.",
+  "adminUsuariosErrorMsg": "Error al procesar la solicitud.",
+  "adminConfigTitulo": "Configuración del Sistema",
+  "adminConfigSubtitulo": "Gestiona los ajustes generales del centro",
+  "adminConfigGuardar": "Guardar Cambios",
+  "adminConfigCambiosGuardados": "Cambios guardados correctamente.",
+  "adminConfigErrorGuardar": "Error al guardar los cambios.",
+  "adminConfigNombreCentro": "Nombre del Centro",
+  "adminConfigDireccion": "Dirección",
+  "adminConfigTelefono": "Teléfono",
+  "adminConfigEmail": "Email de Contacto",
+  "adminConfigCursoActivo": "Año Académico Activo",
+  "adminHorarioSinSesiones": "No hay sesiones configuradas.",
+  "adminHorarioNuevaSesion": "Nueva Sesión",
+  "adminHorarioEliminarSesion": "Eliminar Sesión",
+  "adminHorarioEliminarSesionDesc": "¿Eliminar esta sesión del horario?",
+  "adminHorarioSesionCreada": "Sesión creada correctamente.",
+  "adminHorarioSesionEliminada": "Sesión eliminada correctamente.",
+  "adminRolesTitulo": "Gestión de Roles",
+  "adminRolesSubtitulo": "Define permisos y accesos por rol",
+  "adminRolesSinRoles": "No hay roles definidos.",
+  "adminRolesGuardado": "Rol actualizado correctamente.",
+  "adminRolesError": "Error al actualizar el rol.",
+  "adminReglamentoGuardado": "Reglamento guardado correctamente.",
+  "adminReglamentoNuevoArticulo": "Nuevo Artículo",
+  "adminReglamentoEliminar": "Eliminar Artículo",
+  "adminReglamentoEliminarDesc": "¿Eliminar este artículo del reglamento?",
+  "adminProgConfigTitulo": "Configuración del Programa",
+  "adminProgConfigSubtitulo": "Gestiona los módulos y configuración académica",
+  "adminProgConfigGuardado": "Configuración guardada correctamente.",
+  "adminProgConfigError": "Error al guardar la configuración.",
+  "adminPermissionsTitulo": "Gestión de Permisos",
+  "adminPermissionsSubtitulo": "Controla el acceso a funcionalidades del sistema",
+  "adminPermissionsGuardado": "Permisos actualizados correctamente.",
+  "adminPermissionsError": "Error al actualizar los permisos.",
+  "adminUsuariosBuscarDetalle": "Buscar por nombre, apellidos, usuario...",
+  "adminUsuariosColUsuario": "USUARIO / IDENTIFICACIÓN",
+  "adminUsuariosColEmail": "EMAIL",
+  "adminUsuariosColRol": "ROL",
+  "adminUsuariosColEstado": "ESTADO",
+  "adminUsuariosColUltimaActividad": "ÚLTIMA ACTIVIDAD",
+  "adminUsuariosColIpSesion": "IP SESIÓN",
+  "adminUsuariosColAcciones": "ACCIONES",
+  "adminUsuariosSinResultados": "Sin resultados para el filtro actual",
+  "adminUsuariosMostrando": "Mostrando {from} - {to} de {total}",
+  "@adminUsuariosMostrando": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "adminUsuariosMostrandoRegistros": "Mostrando {from} - {to} de {total} registros",
+  "@adminUsuariosMostrandoRegistros": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "adminUsuariosMenuVerPerfil": "Ver Perfil Completo",
+  "adminUsuariosMenuEditar": "Editar Usuario",
+  "adminUsuariosMenuResetear": "Resetear Contraseña",
+  "adminUsuariosMenuDesactivar": "Desactivar Cuenta",
+  "adminUsuariosMenuActivar": "Activar Cuenta",
+  "adminUsuariosMenuEliminar": "Eliminar Usuario",
+  "adminUsuariosToastCopiado": "Copiado",
+  "adminUsuariosToastTokenCopiado": "Token de sesión copiado.",
+  "adminUsuariosToastContrasenaReseteada": "Contraseña Reseteada",
+  "adminUsuariosToastContrasenaMsg": "La contraseña para {username} es ahora: gaula123",
+  "@adminUsuariosToastContrasenaMsg": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "adminUsuariosToastError": "Error",
+  "adminUsuariosToastNoResetear": "No se pudo resetear la contraseña.",
+  "adminUsuariosToastEstadoActualizado": "Estado Actualizado",
+  "adminUsuariosToastEstadoMsg": "Usuario {username} está ahora {estado}",
+  "@adminUsuariosToastEstadoMsg": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      },
+      "estado": {
+        "type": "String"
+      }
+    }
+  },
+  "adminUsuariosToastNoEstado": "No se pudo cambiar el estado.",
+  "adminUsuariosToastEliminado": "Usuario Eliminado",
+  "adminUsuariosToastEliminadoMsg": "El registro ha sido borrado del sistema.",
+  "adminUsuariosToastNoEliminar": "No se pudo eliminar el usuario.",
+  "adminUsuariosDialogEliminarTitulo": "¿Eliminar Usuario?",
+  "adminUsuariosDialogEliminarMsg": "Esta acción eliminará permanentemente a {nombre} (@{username}). Esta acción no se puede deshacer.",
+  "@adminUsuariosDialogEliminarMsg": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      },
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "adminUsuariosDialogCancelar": "CANCELAR",
+  "adminUsuariosDialogEliminar": "ELIMINAR",
+  "adminUsuariosTodosFiltro": "Todos ({hint})",
+  "@adminUsuariosTodosFiltro": {
+    "placeholders": {
+      "hint": {
+        "type": "String"
+      }
+    }
+  },
+  "crearIncidenciaCompletaCampos": "Por favor completa todos los campos",
+  "crearIncidenciaSeleccionaAlumno": "Por favor selecciona un alumno",
+  "crearIncidenciaExito": "✅ Incidencia creada correctamente",
+  "crearIncidenciaError": "Error al crear incidencia",
+  "crearIncidenciaSubtituloAlumno": "Reporta un problema o incidencia",
+  "crearIncidenciaSubtituloProfesor": "Registra una incidencia de un alumno",
+  "crearIncidenciaAlumnoLabel": "Alumno *",
+  "crearIncidenciaTituloLabel": "Título *",
+  "crearIncidenciaTituloHint": "Breve descripción del problema",
+  "crearIncidenciaDescripcionLabel": "Descripción *",
+  "crearIncidenciaDescripcionHint": "Describe el problema en detalle...",
+  "crearIncidenciaGravedadLabel": "Gravedad",
+  "crearIncidenciaBoton": "Crear Incidencia",
+  "crearIncidenciaBuscarAlumno": "Escribe para buscar...",
+  "crearIncidenciaSinGrupo": "Sin grupo",
+  "crearIncidenciaErrorAlumnos": "Error cargando alumnos",
+  "verReporteMensual": "Ver reporte mensual",
+  "sinAlertasRecientes": "Sin alertas recientes",
+  "buscarPorNombre": "Buscar por nombre...",
+  "asignarMaterias": "Asignar Materias",
+  "cursoSinMaterias": "Este curso no tiene materias asignadas",
+  "marcarTodos": "Marcar todos",
+  "desmarcarTodos": "Desmarcar todos",
+  "atras": "Atrás",
+  "matricular": "Matricular",
+  "anadirCursoModalidad": "Añadir curso a esta modalidad",
+  "etapaActualIncidencia": "Selecciona la etapa actual de esta incidencia",
+  "buscarPorTituloDesc": "Buscar por título o descripción...",
+  "topAlumnosIncidencias": "Top Alumnos con Incidencias",
+  "noHayIncidencias": "No hay incidencias registradas",
+  "resolucionIncidencia": "Resolución de Incidencia",
+  "esInvalida": "ES INVÁLIDA",
+  "esValida": "ES VÁLIDA",
+  "fechaPlaceholder": "Fecha...",
+  "materia": "Materia",
+  "seleccionarMateria": "Seleccionar materia",
+  "docenteConNombreLabel": "Docente: {nombre}",
+  "@docenteConNombreLabel": {
+    "placeholders": {
+      "nombre": {
+        "type": "String"
+      }
+    }
+  },
+  "siguienteLabel": "Siguiente",
+  "cambiarPasswordTitulo": "Cambiar Contraseña",
+  "cambiarPasswordDesc": "Introduce tu contraseña actual y la nueva",
+  "dialogContrasenyaActual": "Contraseña Actual",
+  "dialogNovaContrasenya": "Nueva Contraseña",
+  "dialogConfirmarNovaContrasenya": "Confirmar Nueva Contraseña",
+  "notificacionesTitulo": "Notificaciones",
+  "marcarTodas": "Marcar todas",
+  "noHayNotificaciones": "No hay notificaciones",
+  "reglamentoCentro": "REGLAMENTO DEL CENTRO",
+  "normativaVigente": "NORMATIVA VIGENTE",
+  "versionActualizada": "Versión Actualizada",
+  "paginaNoEncontrada": "Página no encontrada: {uri}",
+  "@paginaNoEncontrada": {
+    "placeholders": {
+      "uri": {
+        "type": "String"
+      }
+    }
+  },
+  "irAlInicio": "Ir al inicio",
+  "tabTotes": "TODAS",
+  "@tabTotes": {
+    "description": "Filter tab: all"
+  },
+  "tabObert": "ABIERTO",
+  "@tabObert": {
+    "description": "Filter tab: open"
+  },
+  "tabEnProces": "EN PROCESO",
+  "@tabEnProces": {
+    "description": "Filter tab: in progress"
+  },
+  "tabTancat": "CERRADO",
+  "@tabTancat": {
+    "description": "Filter tab: closed"
+  },
+  "filtreCurs": "Curso",
+  "@filtreCurs": {
+    "description": "Filter label: course"
+  },
+  "filtreAlumne": "Alumno",
+  "@filtreAlumne": {
+    "description": "Filter label: student"
+  },
+  "filtreProfessor": "Profesor",
+  "@filtreProfessor": {
+    "description": "Filter label: teacher"
+  },
+  "filtrarPorAlumno": "Filtrar por alumno...",
+  "@filtrarPorAlumno": {
+    "description": "Filter by student hint"
+  },
+  "filtrarPorProfesor": "Filtrar por profesor...",
+  "@filtrarPorProfesor": {
+    "description": "Filter by teacher hint"
+  },
+  "todosAlumnos": "Todos los Alumnos",
+  "@todosAlumnos": {
+    "description": "All students option"
+  },
+  "todosProfesores": "Todos los Profesores",
+  "@todosProfesores": {
+    "description": "All teachers option"
+  },
+  "todos": "Todos",
+  "@todos": {
+    "description": "All (short)"
+  },
+  "incidenciaPendiente": "PENDIENTE",
+  "@incidenciaPendiente": {
+    "description": "Pending course code fallback"
+  },
+  "resValida": "VÁLIDA",
+  "@resValida": {
+    "description": "Resolution badge: valid"
+  },
+  "resInvalida": "INVÁLIDA",
+  "@resInvalida": {
+    "description": "Resolution badge: invalid"
+  },
+  "incidenciasEsInvalida": "ES INVÁLIDA",
+  "@incidenciasEsInvalida": {
+    "description": "Is invalid button label"
+  },
+  "incidenciaConfirmacioText": "Tras la investigación realizada, ¿se confirma que la incidencia es verídica y amerita sanción?",
+  "@incidenciaConfirmacioText": {
+    "description": "Resolution confirmation dialog body"
+  },
+  "topAlumnesIncidencies": "Top Alumnos con Incidencias",
+  "@topAlumnesIncidencies": {
+    "description": "Course summary header"
+  },
+  "alertesTotals": "ALERTAS TOTALES",
+  "@alertesTotals": {
+    "description": "Total alerts count suffix"
+  },
+  "incidenciaSeveridadLeve": "Leve",
+  "incidenciaSeveridadGrave": "Grave",
+  "incidenciaSeveridadMuyGrave": "Muy Grave",
+  "adminCursosCalendario": "Calendario Escolar",
+  "adminCursosVerOtrosAnios": "Ver otros años",
+  "adminCursosAniadirCurso": "Añadir Curso",
+  "adminCursosTurnoPartido": "Partido (P)",
+  "adminCursosTurnoManana": "Mañana (M)",
+  "adminCursosTurnoTarde": "Tarde (T)",
+  "adminCursosTurnoNocturno": "Nocturno (N)",
+  "statPresentes": "Pres.",
+  "statAusentes": "Aus.",
+  "statRetrasos": "Retr.",
+  "diaSabado": "Sábado",
+  "diaDomingo": "Domingo",
+  "asistenciaAlumnoIndex": "Alumno {index} de {total}",
+  "@asistenciaAlumnoIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "asistenciaHoraLabel": "Hora",
+  "asistenciaCursoLabel": "Curso"
+}

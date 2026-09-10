@@ -1,0 +1,203 @@
+name: gaula_frontend
+description: "Plataforma de gestión educativa GAULA — Frontend Flutter Mobile-First"
+publish_to: "none"
+version: 1.0.0+1
+
+# ══════════════════════════════════════════════════════════════
+# ENTORNO DE SDK
+# Flutter >= 3.22 para soporte completo de Dart 3.4,
+# Material 3 y mejoras de rendimiento en Web/Mobile.
+# ══════════════════════════════════════════════════════════════
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+# ══════════════════════════════════════════════════════════════
+# DEPENDENCIAS DE PRODUCCIÓN
+# ══════════════════════════════════════════════════════════════
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # ─────────────────────────────────────────────
+  # 1. GESTIÓN DE ESTADO — Flutter Riverpod
+  #    Patrón elegido: Riverpod 2.x con code generation.
+  #    Ventajas sobre Provider y BLoC:
+  #    - Compile-time safety (sin errores en runtime)
+  #    - AsyncNotifier para estados de carga/error de API
+  #    - Sin BuildContext necesario en los providers
+  # ─────────────────────────────────────────────
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # ─────────────────────────────────────────────
+  # 2. CLIENTE HTTP — Dio
+  #    Alternativa superior a http:
+  #    - Interceptores para inyectar el JWT automáticamente
+  #    - Retry automático en 401 (refresh token)
+  #    - Cancelación de peticiones y timeouts configurables
+  # ─────────────────────────────────────────────
+  dio: ^5.4.3+1
+
+  # ─────────────────────────────────────────────
+  # 3. NAVEGACIÓN — GoRouter
+  #    Router declarativo con soporte para:
+  #    - Guards de ruta (redirect según rol del usuario)
+  #    - Deep linking en Web y Mobile
+  #    - Shell routes para el layout con sidebar/navbar
+  # ─────────────────────────────────────────────
+  go_router: ^14.2.7
+
+  # ─────────────────────────────────────────────
+  # 4. SERIALIZACIÓN JSON — freezed + json_serializable
+  #    Genera modelos de datos inmutables con:
+  #    - copyWith(), == y hashCode automáticos
+  #    - fromJson/toJson para la API de Spring Boot
+  #    - Union types para estados (loading, data, error)
+  # ─────────────────────────────────────────────
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+
+  # ─────────────────────────────────────────────
+  # 5. ALMACENAMIENTO SEGURO DE TOKENS JWT
+  #    flutter_secure_storage guarda el token en:
+  #    - iOS: Keychain
+  #    - Android: EncryptedSharedPreferences
+  #    - Web: localStorage con cifrado AES
+  # ─────────────────────────────────────────────
+  flutter_secure_storage: ^9.2.2
+
+  # ─────────────────────────────────────────────
+  # 6. PREFERENCIAS DE USUARIO (NO SENSIBLES)
+  #    Idioma, tema (claro/oscuro), última pantalla visitada.
+  # ─────────────────────────────────────────────
+  shared_preferences: ^2.3.2
+
+  # ─────────────────────────────────────────────
+  # 7. TIPOGRAFÍA — Google Fonts
+  #    Fuente Inter para máxima fidelidad con el diseño
+  #    original de Figma/React (Inter/Roboto).
+  # ─────────────────────────────────────────────
+  google_fonts: ^6.2.1
+
+  # ─────────────────────────────────────────────
+  # 9. GRÁFICAS — fl_chart
+  #    Para reproducir los gráficos de barras y líneas
+  #    del dashboard (estadísticas de asistencia, etc.).
+  # ─────────────────────────────────────────────
+  fl_chart: ^0.69.0
+
+  # ─────────────────────────────────────────────
+  # 10. ESTADOS DE CARGA — shimmer
+  #     Efecto skeleton loader mientras se carga la API,
+  #     en lugar de spinners genéricos.
+  # ─────────────────────────────────────────────
+  shimmer: ^3.0.0
+
+  # ─────────────────────────────────────────────
+  # 11. IMÁGENES EN CACHÉ
+  #     Para avatares de profesores/alumnos servidos
+  #     desde la API (evita recargas innecesarias).
+  # ─────────────────────────────────────────────
+  cached_network_image: ^3.3.1
+
+  # ─────────────────────────────────────────────
+  # 12. INTERNACIONALIZACIÓN — intl
+  #     Formateo de fechas en español (es_ES, ca_ES),
+  #     números y plurales. Requerido por flutter_localizations.
+  # ─────────────────────────────────────────────
+  intl: ^0.20.2
+
+  # ─────────────────────────────────────────────
+  # 13. RESPONSIVE LAYOUT
+  #     Detecta breakpoints (mobile/tablet/desktop) sin
+  #     escribir MediaQuery.of(context).size en cada widget.
+  # ─────────────────────────────────────────────
+  responsive_framework: ^1.4.0
+
+  # ─────────────────────────────────────────────
+  # 14. ANIMACIONES — animate_do
+  #     animate_do: helpers de animación declarativa
+  #     (FadeIn, SlideInLeft, BounceIn...) como la web.
+  # ─────────────────────────────────────────────
+  animate_do: ^3.3.4
+
+  # ─────────────────────────────────────────────
+  # 15. NOTIFICACIONES LOCALES
+  #     Para alertas de asistencia pendiente y notificaciones
+  #     del sistema (equivalente a los toasts de la web).
+  # ─────────────────────────────────────────────
+  flutter_local_notifications: ^17.2.2
+
+  # ─────────────────────────────────────────────
+  # 17. SELECCIÓN DE FECHA — table_calendar
+  #     Para las pantallas de SchedulePage y CourseCalendarPage,
+  #     con soporte de eventos y marcadores visuales por día.
+  # ─────────────────────────────────────────────
+  table_calendar: ^3.1.2
+
+  # ─────────────────────────────────────────────
+  # 18. UTILIDADES DE URL / PLATAFORMA
+  #     url_launcher: abrir links externos desde la app
+  #     package_info_plus: leer la versión de la app
+  # ─────────────────────────────────────────────
+  url_launcher: ^6.3.0
+  package_info_plus: ^8.0.2
+  image_picker: ^1.1.2
+  flutter_colorpicker: ^1.1.0
+  file_picker: ^11.0.2
+  flutter_quill: ^11.5.0
+  universal_html: ^2.3.0
+
+# ══════════════════════════════════════════════════════════════
+# DEPENDENCIAS DE DESARROLLO (code generation + testing)
+# ══════════════════════════════════════════════════════════════
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Generador de código para Riverpod (providers annotados)
+  riverpod_generator: ^2.4.3
+
+  # Generador de código para freezed (modelos inmutables)
+  freezed: ^2.5.2
+
+  # Generador de fromJson/toJson con json_annotation
+  json_serializable: ^6.8.0
+
+  # Runner de generación de código (build_runner)
+  build_runner: ^2.4.11
+
+  # Linter de Dart con reglas modernas
+  flutter_lints: ^5.0.0
+
+  # Mockito para tests unitarios de providers y servicios
+  mockito: ^5.4.4
+
+  # Integration test runner (requerido para tests E2E en dispositivo/emulador)
+  integration_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.14.4
+
+# ══════════════════════════════════════════════════════════════
+# CONFIGURACIÓN DE FLUTTER
+# ══════════════════════════════════════════════════════════════
+flutter:
+  uses-material-design: true
+
+  # Localización en español, catalán e inglés
+  generate: true
+
+  assets:
+    # Imágenes propias (logos, splash, iconos)
+    - assets/images/
+    # Fuentes locales como fallback (si Google Fonts falla)
+    - assets/fonts/
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/app_icon.png"

@@ -1,0 +1,42 @@
+# ── Backend (Java / Maven) ──────────────────────────────
+Backend/target/
+Backend/*.log
+Backend/logs/
+Backend/data/
+Backend/.mvn/wrapper/maven-wrapper.jar
+# local dev credentials — never committed
+Backend/src/main/resources/application-local.properties
+
+# ── Frontend (Flutter) ──────────────────────────────────
+Frontend/build/
+Frontend/.dart_tool/
+Frontend/.flutter-plugins
+Frontend/.flutter-plugins-dependencies
+Frontend/.pub-cache/
+Frontend/coverage/
+# env files: dev.json ships as a template, real ones are CI-only
+Frontend/env/staging.json
+Frontend/env/prod.json
+Frontend/env/lan.json
+# Flutter Android signing
+Frontend/android/key.properties
+Frontend/android/app/google-services.json
+**/*.keystore
+**/*.jks
+
+# ── IDE / OS ────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+.DS_Store
+Thumbs.db
+
+# ── Local tooling / scratch ─────────────────────────────
+.claude/
+.mcp.json
+graphify-out/
+apache-maven-*/
+*.bat
