@@ -40,3 +40,6 @@ Thumbs.db
 graphify-out/
 apache-maven-*/
 *.bat
+
+# nested Gradle build dirs (Flutter android/ios)
+**/build/
