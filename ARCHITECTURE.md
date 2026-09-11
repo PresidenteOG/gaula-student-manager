@@ -17,7 +17,7 @@ flowchart LR
         svc["@Service layer"]
         repo["Spring Data JPA repositories"]
     end
-    db[("MySQL / PostgreSQL\n+ Flyway migrations")]
+    db[("MySQL + Flyway migrations\n(H2 in the demo profile)")]
     nager["date.nager.at\npublic holidays API"]
 
     router --> riverpod --> dio -->|"Bearer token"| filter --> sec --> ctrl --> svc --> repo --> db
@@ -40,6 +40,16 @@ flowchart LR
 Cross-cutting: `RateLimitFilter` (per-IP request cap), `FileStorageService` (avatar uploads to
 a local directory served at `/uploads/**`), `DatabaseInitializer` / `FlywayRepairConfig` (schema
 lifecycle), `Auditoria` entity written on sensitive changes.
+
+### Which databases actually work
+
+- **MySQL** — the supported target. The 16 Flyway migrations under `db/migration/` are MySQL
+  syntax (`AUTO_INCREMENT`, `FROM DUAL`, `ENUM(...)`, `MODIFY COLUMN`).
+- **PostgreSQL** — the driver and `flyway-database-postgresql` are on the classpath, but the
+  migrations do not run on Postgres without being rewritten, and they have drifted from the
+  current entity model. Treat Postgres as unsupported until the migrations are ported.
+- **H2** — used only by the `demo` profile (`spring.flyway.enabled=false`, schema generated from
+  the entities, seeded by `DemoDataSeeder`). This is what the Render deployment runs.
 
 ## Auth flow
 
