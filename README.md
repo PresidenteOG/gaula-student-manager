@@ -87,6 +87,15 @@ edit its URLs, or let the Pages workflow fill them from the `API_BASE_URL` repo 
 
 To run the backend with **no database at all**, use the `demo` profile (see [Live demo](#live-demo)).
 
+## Screenshots
+
+No Flutter SDK to hand for a client build — this is the REST API's own Swagger UI on the
+`demo` profile, seeded with a fictional school.
+
+![Swagger UI — events and profile endpoints](./docs/screenshots/swagger-api.png)
+:---:
+Generated OpenAPI docs, `/swagger-ui/index.html`
+
 ## Architecture
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for the request path, the auth flow and the data model.
