@@ -24,6 +24,8 @@ flowchart LR
     svc -->|"cached in festivo table"| nager
 ```
 
+![gaula-student-manager architecture: the Flutter client sends a bearer token through a JWT filter and Spring Security into the controller and service layers, which read and write MySQL through Spring Data JPA, with public holidays cached from an external API](./docs/architecture.png)
+
 ## Request path (backend)
 
 1. `JwtAuthenticationFilter` reads the `Authorization: Bearer` header, validates the token with

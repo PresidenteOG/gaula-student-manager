@@ -1,3 +1,5 @@
+![gaula-student-manager](./docs/banner.png)
+
 # GAULA — school management platform
 
 ![Java](https://img.shields.io/badge/Java-21-007396?style=flat&logo=openjdk&logoColor=white)
