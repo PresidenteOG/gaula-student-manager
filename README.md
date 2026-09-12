@@ -100,6 +100,8 @@ Generated OpenAPI docs, `/swagger-ui/index.html`
 
 ## Architecture
 
+![gaula-student-manager architecture: request path, auth flow and data model](docs/architecture.png)
+
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for the request path, the auth flow and the data model.
 
 ## Contributors
