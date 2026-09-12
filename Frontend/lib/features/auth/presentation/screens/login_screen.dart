@@ -26,8 +26,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> with SingleTickerProv
   late Animation<double> _logoAlignment;
 
   final _formKey = GlobalKey<FormState>();
-  final _usernameCtrl = TextEditingController();
-  final _passwordCtrl = TextEditingController();
+  final _usernameCtrl = TextEditingController(text: 'admin');
+  final _passwordCtrl = TextEditingController(text: 'admin123');
   bool _verPassword = false;
 
   @override
