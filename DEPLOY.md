@@ -1,7 +1,7 @@
 # Deploying GAULA
 
-**Live API:** _not deployed yet_ — deploy from `render.yaml` on Render's free tier.
-**Live web client:** _not deployed yet_ — Flutter web build on GitHub Pages (see below).
+**Live API:** https://gaula-student-manager.onrender.com — Render free tier, deployed from `render.yaml`.
+**Live web client:** https://presidenteog.github.io/gaula-student-manager/ — Flutter web build on GitHub Pages (see below).
 
 The backend has a `demo` profile that runs the whole API with **no external services**: an
 in-memory H2 database that Hibernate builds from the entities, filled on every start by

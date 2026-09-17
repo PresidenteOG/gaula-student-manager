@@ -27,8 +27,12 @@ cd Backend
 GAULA_JWT_SECRET=local-dev-secret ./mvnw spring-boot:run -Dspring-boot.run.profiles=demo
 ```
 
-Hosting it (Render for the API, GitHub Pages for the Flutter web client) is described in
-[DEPLOY.md](DEPLOY.md). Live links go here once deployed.
+**Live:** [web client](https://presidenteog.github.io/gaula-student-manager/) (Flutter,
+GitHub Pages, prefilled `admin`/`admin123`) · [API docs](https://gaula-student-manager.onrender.com/v3/api-docs)
+(Render free tier — sleeps after ~15 min idle, first hit takes ~30–60s to wake, and every
+sleep/deploy resets the in-memory demo data back to the seed).
+
+Hosting details (Render for the API, GitHub Pages for the Flutter web client): [DEPLOY.md](DEPLOY.md).
 
 ## The three roles
 
@@ -91,12 +95,12 @@ To run the backend with **no database at all**, use the `demo` profile (see [Liv
 
 ## Screenshots
 
-No Flutter SDK to hand for a client build — this is the REST API's own Swagger UI on the
-`demo` profile, seeded with a fictional school.
+The real Flutter web client, live on GitHub Pages, logged in as the seeded admin —
+not just the API docs.
 
-![Swagger UI — events and profile endpoints](./docs/screenshots/swagger-api.png)
+![GAULA admin panel — student roster with attendance counts](./docs/screenshots/students-list.png)
 :---:
-Generated OpenAPI docs, `/swagger-ui/index.html`
+Student roster (`Alumnos`), seeded fictional school — nine students across two DAM groups
 
 ## Architecture
 
