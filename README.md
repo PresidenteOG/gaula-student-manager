@@ -19,8 +19,10 @@ feature-first Flutter app.
 
 There is a `demo` profile that runs the entire backend with no database and no setup — H2 in
 memory, re-seeded on every start with a small fictional school (four teachers, two DAM groups,
-nine students, a weekly timetable). Every account's password is `admin123`; sign in as `admin`
-for the full admin view, or as `ifernandez` / `clopez` for the teacher and student views.
+nine students, a weekly timetable). Password is role-based: `admin`/`admin123` for the full
+admin view, any teacher username (`ifernandez`, `jpuig`, `msoler`) + `teacher123` for the
+teacher view, or any student username (`clopez`, `sgarcia`, `mroca`, ...) + `student123` for
+the student view.
 
 ```bash
 cd Backend

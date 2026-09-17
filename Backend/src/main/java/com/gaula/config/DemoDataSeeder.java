@@ -23,7 +23,9 @@ import java.util.List;
  *
  * The data is deliberately tiny — enough to log in as each role and see every
  * screen populated (dashboard, directory, schedule, attendance, admin config).
- * Every password is {@code admin123}.
+ * Password is role-based for convenience: {@code admin123} for the admin
+ * account, {@code teacher123} for every teacher, {@code student123} for every
+ * student.
  */
 @Component
 @Profile("demo")
@@ -53,14 +55,16 @@ public class DemoDataSeeder implements CommandLineRunner {
         }
         try {
             seed();
-            log.info("Demo school seeded. Log in with admin / admin123 (or any teacher/student username + admin123).");
+            log.info("Demo school seeded. Log in with admin/admin123, any teacher username/teacher123, or any student username/student123.");
         } catch (Exception e) {
             log.error("Demo seeding failed — the app still starts, but screens will be empty.", e);
         }
     }
 
     private void seed() {
-        String pass = passwordEncoder.encode("admin123");
+        String adminPass = passwordEncoder.encode("admin123");
+        String teacherPass = passwordEncoder.encode("teacher123");
+        String studentPass = passwordEncoder.encode("student123");
 
         // ── System config ──────────────────────────────────────────────
         configuracionSistemaRepository.saveAll(List.of(
@@ -128,25 +132,25 @@ public class DemoDataSeeder implements CommandLineRunner {
         // ── Teachers (1 admin + 3 teachers) ────────────────────────────
         Profesor admin = profesorRepository.save(Profesor.builder()
             .nombre("Nuria").apellidos("Camps Vidal")
-            .username("admin").password(pass).email("admin@itponent.example")
+            .username("admin").password(adminPass).email("admin@itponent.example")
             .rol(Profesor.RolProfesor.ADMIN).estado(Profesor.EstadoProfesor.ACTIVO)
             .avatar("👩‍💼").especialidades("Prefectura d'estudis")
             .build());
         Profesor tIsabel = profesorRepository.save(Profesor.builder()
             .nombre("Isabel").apellidos("Fernandez Ruiz")
-            .username("ifernandez").password(pass).email("ifernandez@itponent.example")
+            .username("ifernandez").password(teacherPass).email("ifernandez@itponent.example")
             .rol(Profesor.RolProfesor.TEACHER).estado(Profesor.EstadoProfesor.ACTIVO)
             .avatar("👩‍🏫").especialidades("Programacio, Acces a dades")
             .build());
         Profesor tJordi = profesorRepository.save(Profesor.builder()
             .nombre("Jordi").apellidos("Puig Casanova")
-            .username("jpuig").password(pass).email("jpuig@itponent.example")
+            .username("jpuig").password(teacherPass).email("jpuig@itponent.example")
             .rol(Profesor.RolProfesor.TEACHER).estado(Profesor.EstadoProfesor.ACTIVO)
             .avatar("👨‍🏫").especialidades("Bases de dades, Llenguatges de marques")
             .build());
         Profesor tMarta = profesorRepository.save(Profesor.builder()
             .nombre("Marta").apellidos("Soler Oliva")
-            .username("msoler").password(pass).email("msoler@itponent.example")
+            .username("msoler").password(teacherPass).email("msoler@itponent.example")
             .rol(Profesor.RolProfesor.TEACHER).estado(Profesor.EstadoProfesor.ACTIVO)
             .avatar("👩‍🏫").especialidades("Sistemes informatics, Interficies")
             .build());
@@ -188,8 +192,8 @@ public class DemoDataSeeder implements CommandLineRunner {
         List<Materia> materiasG1 = List.of(progG1, bbddG1, marksG1, sisG1);
         List<Materia> materiasG2 = List.of(adG2, diG2, progG2);
         List<Alumno> alumnos = new ArrayList<>();
-        for (String[] s : s1) alumnos.add(alumno(s, pass, g1, materiasG1));
-        for (String[] s : s2) alumnos.add(alumno(s, pass, g2, materiasG2));
+        for (String[] s : s1) alumnos.add(alumno(s, studentPass, g1, materiasG1));
+        for (String[] s : s2) alumnos.add(alumno(s, studentPass, g2, materiasG2));
         alumnoRepository.saveAll(alumnos);
 
         // ── Weekly schedule (a readable subset) ───────────────────────
