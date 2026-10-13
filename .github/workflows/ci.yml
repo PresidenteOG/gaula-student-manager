@@ -1,7 +1,7 @@
 name: CI
 
-# Compiles both halves of the project on every push and PR so the badge
-# reflects a buildable state. No deployment here — see deploy-web.yml.
+# Compiles both halves of the project and runs the Flutter unit tests on
+# every push and PR. No deployment here — see deploy-web.yml.
 
 on:
   push:
@@ -47,3 +47,6 @@ jobs:
 
       - name: Analyze
         run: flutter analyze --no-fatal-warnings --no-fatal-infos
+
+      - name: Unit tests
+        run: flutter test
