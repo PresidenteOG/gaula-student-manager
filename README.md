@@ -31,7 +31,7 @@ GAULA_JWT_SECRET=local-dev-secret ./mvnw spring-boot:run -Dspring-boot.run.profi
 
 **Live:** [web client](https://presidenteog.github.io/gaula-student-manager/) (Flutter,
 GitHub Pages, prefilled `admin`/`admin123`) · [API docs](https://gaula-student-manager.onrender.com/v3/api-docs)
-(Render free tier — sleeps after ~15 min idle, first hit takes ~30–60s to wake, and every
+(Render free tier — sleeps after ~15 min idle, first hit can take up to 4 minutes to wake, and every
 sleep/deploy resets the in-memory demo data back to the seed).
 
 Hosting details (Render for the API, GitHub Pages for the Flutter web client): [DEPLOY.md](DEPLOY.md).
